@@ -73,6 +73,13 @@ function VoteScreenInner() {
 
   return (
     <div className="relative flex h-dvh flex-col md:flex-row">
+      <Link
+        className="absolute left-4 top-4 z-10 rounded-full bg-neutral-900/15 px-3 py-1 text-xs font-medium text-neutral-800 backdrop-blur-sm transition-colors hover:bg-neutral-900/25"
+        href="/"
+      >
+        View Rankings
+      </Link>
+
       <button
         className={`flex flex-1 cursor-pointer flex-col items-center justify-center gap-3 bg-gradient-to-b from-amber-200 to-orange-300 px-6 text-neutral-900 transition-opacity duration-300 md:bg-gradient-to-r ${
           isTransitioning && selected !== top.id ? 'opacity-40' : 'opacity-100'
@@ -110,12 +117,6 @@ function VoteScreenInner() {
         >
           Skip
         </button>
-        <Link
-          className="rounded-full bg-neutral-900/15 px-3 py-1 text-xs font-medium text-neutral-800 backdrop-blur-sm transition-colors hover:bg-neutral-900/25"
-          href="/"
-        >
-          View Rankings
-        </Link>
       </div>
 
       <button
