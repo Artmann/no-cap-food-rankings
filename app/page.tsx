@@ -4,6 +4,8 @@ import { getRankings } from '@/lib/rankings'
 
 import { RankingsTable } from './rankings-table'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata = {
   description: 'See which country has the best food, ranked by your votes.',
   title: 'rankings | no cap food rankings'
