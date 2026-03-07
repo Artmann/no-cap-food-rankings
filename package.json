@@ -9,7 +9,16 @@
     "url": "https://github.com/Artmann/no-cap-food-rankings.git"
   },
   "homepage": "https://no-cap-food-rankings.vercel.app",
-  "keywords": ["food", "ranking", "voting", "nextjs", "react", "drizzle", "tailwindcss", "leaderboard"],
+  "keywords": [
+    "food",
+    "ranking",
+    "voting",
+    "nextjs",
+    "react",
+    "drizzle",
+    "tailwindcss",
+    "leaderboard"
+  ],
   "scripts": {
     "build": "drizzle-kit migrate && next build",
     "db:generate": "drizzle-kit generate",

@@ -1,233 +1,2147 @@
 [
   {
+    "id": "afghanistan",
+    "name": "Afghanistan",
+    "emoji": "🇦🇫",
+    "description": "Kabuli pulao is the main character and it knows it",
+    "dishes": [
+      { "name": "Kabuli Pulao", "emoji": "🍚" },
+      { "name": "Mantu", "emoji": "🥟" },
+      { "name": "Bolani", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "albania",
+    "name": "Albania",
+    "emoji": "🇦🇱",
+    "description": "Balkan comfort food that deserves way more clout",
+    "dishes": [
+      { "name": "Tavë Kosi", "emoji": "🍖" },
+      { "name": "Byrek", "emoji": "🥧" },
+      { "name": "Qofte", "emoji": "🧆" }
+    ]
+  },
+  {
+    "id": "algeria",
+    "name": "Algeria",
+    "emoji": "🇩🇿",
+    "description": "Couscous game on a whole different level",
+    "dishes": [
+      { "name": "Couscous", "emoji": "🍚" },
+      { "name": "Chakhchoukha", "emoji": "🍲" },
+      { "name": "Makroud", "emoji": "🍪" }
+    ]
+  },
+  {
+    "id": "andorra",
+    "name": "Andorra",
+    "emoji": "🇦🇩",
+    "description": "Tiny country big mountain food energy",
+    "dishes": [
+      { "name": "Escudella", "emoji": "🍲" },
+      { "name": "Trinxat", "emoji": "🥔" },
+      { "name": "Coca Masegada", "emoji": "🍰" }
+    ]
+  },
+  {
+    "id": "angola",
+    "name": "Angola",
+    "emoji": "🇦🇴",
+    "description": "Portuguese x African fusion before fusion was a thing",
+    "dishes": [
+      { "name": "Muamba de Galinha", "emoji": "🍗" },
+      { "name": "Calulu", "emoji": "🐟" },
+      { "name": "Funje", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "antigua-and-barbuda",
+    "name": "Antigua and Barbuda",
+    "emoji": "🇦🇬",
+    "description": "Island food that goes crazy at every cookout",
+    "dishes": [
+      { "name": "Fungee & Pepperpot", "emoji": "🍲" },
+      { "name": "Ducana", "emoji": "🍠" },
+      { "name": "Salt Fish", "emoji": "🐟" }
+    ]
+  },
+  {
     "id": "argentina",
     "name": "Argentina",
-    "emoji": "\ud83c\udde6\ud83c\uddf7",
+    "emoji": "🇦🇷",
     "description": "Grill game absolutely unhinged",
     "dishes": [
-      { "name": "Asado", "emoji": "\ud83e\udd69" },
-      { "name": "Empanadas", "emoji": "\ud83e\udd5f" },
-      { "name": "Milanesa", "emoji": "\ud83c\udf56" }
+      { "name": "Asado", "emoji": "🥩" },
+      { "name": "Empanadas", "emoji": "🥟" },
+      { "name": "Milanesa", "emoji": "🍖" }
+    ]
+  },
+  {
+    "id": "armenia",
+    "name": "Armenia",
+    "emoji": "🇦🇲",
+    "description": "Lavash wrapping everything is genuinely elite",
+    "dishes": [
+      { "name": "Khorovats", "emoji": "🍖" },
+      { "name": "Dolma", "emoji": "🥬" },
+      { "name": "Lavash", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "australia",
+    "name": "Australia",
+    "emoji": "🇦🇺",
+    "description": "Vegemite is a personality test tbh",
+    "dishes": [
+      { "name": "Meat Pie", "emoji": "🥧" },
+      { "name": "Vegemite Toast", "emoji": "🍞" },
+      { "name": "Pavlova", "emoji": "🍰" }
+    ]
+  },
+  {
+    "id": "austria",
+    "name": "Austria",
+    "emoji": "🇦🇹",
+    "description": "Schnitzel so good Germany tried to claim it",
+    "dishes": [
+      { "name": "Wiener Schnitzel", "emoji": "🍖" },
+      { "name": "Sachertorte", "emoji": "🍫" },
+      { "name": "Kaiserschmarrn", "emoji": "🥞" }
+    ]
+  },
+  {
+    "id": "azerbaijan",
+    "name": "Azerbaijan",
+    "emoji": "🇦🇿",
+    "description": "The crossroads of flavor nobody talks about enough",
+    "dishes": [
+      { "name": "Plov", "emoji": "🍚" },
+      { "name": "Dolma", "emoji": "🥬" },
+      { "name": "Qutab", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "bahamas",
+    "name": "Bahamas",
+    "emoji": "🇧🇸",
+    "description": "Conch everything and zero complaints",
+    "dishes": [
+      { "name": "Conch Salad", "emoji": "🥗" },
+      { "name": "Cracked Conch", "emoji": "🍤" },
+      { "name": "Johnnycake", "emoji": "🍞" }
+    ]
+  },
+  {
+    "id": "bahrain",
+    "name": "Bahrain",
+    "emoji": "🇧🇭",
+    "description": "Gulf spices hitting just right",
+    "dishes": [
+      { "name": "Machboos", "emoji": "🍚" },
+      { "name": "Muhammar", "emoji": "🍚" },
+      { "name": "Halwa", "emoji": "🍮" }
+    ]
+  },
+  {
+    "id": "bangladesh",
+    "name": "Bangladesh",
+    "emoji": "🇧🇩",
+    "description": "Rice and fish combos that go unbelievably hard",
+    "dishes": [
+      { "name": "Hilsa Curry", "emoji": "🐟" },
+      { "name": "Biryani", "emoji": "🍚" },
+      { "name": "Pitha", "emoji": "🍡" }
+    ]
+  },
+  {
+    "id": "barbados",
+    "name": "Barbados",
+    "emoji": "🇧🇧",
+    "description": "Flying fish is the flex you didn't know you needed",
+    "dishes": [
+      { "name": "Flying Fish & Cou Cou", "emoji": "🐟" },
+      { "name": "Macaroni Pie", "emoji": "🧀" },
+      { "name": "Fish Cakes", "emoji": "🍤" }
+    ]
+  },
+  {
+    "id": "belarus",
+    "name": "Belarus",
+    "emoji": "🇧🇾",
+    "description": "Potatoes in every form and honestly iconic",
+    "dishes": [
+      { "name": "Draniki", "emoji": "🥔" },
+      { "name": "Machanka", "emoji": "🍖" },
+      { "name": "Kalduny", "emoji": "🥟" }
+    ]
+  },
+  {
+    "id": "belgium",
+    "name": "Belgium",
+    "emoji": "🇧🇪",
+    "description": "Waffles fries and chocolate is the holy trinity",
+    "dishes": [
+      { "name": "Belgian Waffles", "emoji": "🧇" },
+      { "name": "Moules-Frites", "emoji": "🍟" },
+      { "name": "Chocolate", "emoji": "🍫" }
+    ]
+  },
+  {
+    "id": "belize",
+    "name": "Belize",
+    "emoji": "🇧🇿",
+    "description": "Caribbean meets Central America and it slaps",
+    "dishes": [
+      { "name": "Rice and Beans", "emoji": "🍚" },
+      { "name": "Stew Chicken", "emoji": "🍗" },
+      { "name": "Garnaches", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "benin",
+    "name": "Benin",
+    "emoji": "🇧🇯",
+    "description": "West African flavors that don't miss",
+    "dishes": [
+      { "name": "Amiwo", "emoji": "🍚" },
+      { "name": "Kuli Kuli", "emoji": "🥜" },
+      { "name": "Akassa", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "bhutan",
+    "name": "Bhutan",
+    "emoji": "🇧🇹",
+    "description": "Chili and cheese is literally the whole vibe",
+    "dishes": [
+      { "name": "Ema Datshi", "emoji": "🌶️" },
+      { "name": "Phaksha Paa", "emoji": "🍖" },
+      { "name": "Red Rice", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "bolivia",
+    "name": "Bolivia",
+    "emoji": "🇧🇴",
+    "description": "High altitude comfort food that warms your soul fr",
+    "dishes": [
+      { "name": "Salteñas", "emoji": "🥟" },
+      { "name": "Pique Macho", "emoji": "🥩" },
+      { "name": "Silpancho", "emoji": "🍖" }
+    ]
+  },
+  {
+    "id": "bosnia-and-herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "emoji": "🇧🇦",
+    "description": "Ćevapi at 3am is a religious experience",
+    "dishes": [
+      { "name": "Ćevapi", "emoji": "🌭" },
+      { "name": "Burek", "emoji": "🥧" },
+      { "name": "Begova Čorba", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "botswana",
+    "name": "Botswana",
+    "emoji": "🇧🇼",
+    "description": "Seswaa is giving tender perfection",
+    "dishes": [
+      { "name": "Seswaa", "emoji": "🥩" },
+      { "name": "Bogobe", "emoji": "🍚" },
+      { "name": "Vetkoek", "emoji": "🍩" }
     ]
   },
   {
     "id": "brazil",
     "name": "Brazil",
-    "emoji": "\ud83c\udde7\ud83c\uddf7",
+    "emoji": "🇧🇷",
     "description": "Tropical vibes that hit different",
     "dishes": [
-      { "name": "Feijoada", "emoji": "\ud83c\udf72" },
-      { "name": "Picanha", "emoji": "\ud83e\udd69" },
-      { "name": "A\u00e7a\u00ed Bowl", "emoji": "\ud83e\uded0" }
+      { "name": "Feijoada", "emoji": "🍲" },
+      { "name": "Picanha", "emoji": "🥩" },
+      { "name": "Açaí Bowl", "emoji": "🫐" }
+    ]
+  },
+  {
+    "id": "brunei",
+    "name": "Brunei",
+    "emoji": "🇧🇳",
+    "description": "Southeast Asian royalty on a plate",
+    "dishes": [
+      { "name": "Ambuyat", "emoji": "🍲" },
+      { "name": "Nasi Katok", "emoji": "🍚" },
+      { "name": "Soto", "emoji": "🍜" }
+    ]
+  },
+  {
+    "id": "bulgaria",
+    "name": "Bulgaria",
+    "emoji": "🇧🇬",
+    "description": "Yogurt so good they named a bacteria after it",
+    "dishes": [
+      { "name": "Shopska Salad", "emoji": "🥗" },
+      { "name": "Banitsa", "emoji": "🥧" },
+      { "name": "Kebapche", "emoji": "🌭" }
+    ]
+  },
+  {
+    "id": "burkina-faso",
+    "name": "Burkina Faso",
+    "emoji": "🇧🇫",
+    "description": "Hearty Sahel cooking that fills your whole being",
+    "dishes": [
+      { "name": "Riz Gras", "emoji": "🍚" },
+      { "name": "Tô", "emoji": "🍚" },
+      { "name": "Poulet Bicyclette", "emoji": "🍗" }
+    ]
+  },
+  {
+    "id": "burundi",
+    "name": "Burundi",
+    "emoji": "🇧🇮",
+    "description": "Simple ingredients cooked with all the love",
+    "dishes": [
+      { "name": "Boko Boko", "emoji": "🍚" },
+      { "name": "Isombe", "emoji": "🥬" },
+      { "name": "Brochettes", "emoji": "🍢" }
+    ]
+  },
+  {
+    "id": "cabo-verde",
+    "name": "Cabo Verde",
+    "emoji": "🇨🇻",
+    "description": "Island stew that tastes like the Atlantic breeze",
+    "dishes": [
+      { "name": "Cachupa", "emoji": "🍲" },
+      { "name": "Pastéis", "emoji": "🥟" },
+      { "name": "Grogue", "emoji": "🥃" }
+    ]
+  },
+  {
+    "id": "cambodia",
+    "name": "Cambodia",
+    "emoji": "🇰🇭",
+    "description": "Amok is the dish that changed the game fr",
+    "dishes": [
+      { "name": "Fish Amok", "emoji": "🐟" },
+      { "name": "Lok Lak", "emoji": "🥩" },
+      { "name": "Num Banh Chok", "emoji": "🍜" }
+    ]
+  },
+  {
+    "id": "cameroon",
+    "name": "Cameroon",
+    "emoji": "🇨🇲",
+    "description": "Ndolé is giving main course excellence",
+    "dishes": [
+      { "name": "Ndolé", "emoji": "🥬" },
+      { "name": "Eru", "emoji": "🍲" },
+      { "name": "Poulet DG", "emoji": "🍗" }
+    ]
+  },
+  {
+    "id": "canada",
+    "name": "Canada",
+    "emoji": "🇨🇦",
+    "description": "Poutine is literally cheese curds having their best life",
+    "dishes": [
+      { "name": "Poutine", "emoji": "🍟" },
+      { "name": "Butter Tarts", "emoji": "🥧" },
+      { "name": "Nanaimo Bars", "emoji": "🍫" }
+    ]
+  },
+  {
+    "id": "central-african-republic",
+    "name": "Central African Republic",
+    "emoji": "🇨🇫",
+    "description": "Cassava everything and it just works",
+    "dishes": [
+      { "name": "Gozo", "emoji": "🍚" },
+      { "name": "Kanda", "emoji": "🍖" },
+      { "name": "Palm Butter Soup", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "chad",
+    "name": "Chad",
+    "emoji": "🇹🇩",
+    "description": "Saharan spice blends that go way too hard",
+    "dishes": [
+      { "name": "Daraba", "emoji": "🍲" },
+      { "name": "Boule", "emoji": "🍚" },
+      { "name": "Kisra", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "chile",
+    "name": "Chile",
+    "emoji": "🇨🇱",
+    "description": "Empanadas de pino are a certified national treasure",
+    "dishes": [
+      { "name": "Empanadas de Pino", "emoji": "🥟" },
+      { "name": "Pastel de Choclo", "emoji": "🌽" },
+      { "name": "Curanto", "emoji": "🍲" }
     ]
   },
   {
     "id": "china",
     "name": "China",
-    "emoji": "\ud83c\udde8\ud83c\uddf3",
+    "emoji": "🇨🇳",
     "description": "Literally thousands of years of no miss cooking",
     "dishes": [
-      { "name": "Kung Pao Chicken", "emoji": "\ud83c\udf57" },
-      { "name": "Dim Sum", "emoji": "\ud83e\udd5f" },
-      { "name": "Mapo Tofu", "emoji": "\ud83e\uddc6" }
+      { "name": "Kung Pao Chicken", "emoji": "🍗" },
+      { "name": "Dim Sum", "emoji": "🥟" },
+      { "name": "Mapo Tofu", "emoji": "🧆" }
+    ]
+  },
+  {
+    "id": "colombia",
+    "name": "Colombia",
+    "emoji": "🇨🇴",
+    "description": "Bandeja paisa is literally a whole gym session on a plate",
+    "dishes": [
+      { "name": "Bandeja Paisa", "emoji": "🍛" },
+      { "name": "Arepas", "emoji": "🫓" },
+      { "name": "Ajiaco", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "comoros",
+    "name": "Comoros",
+    "emoji": "🇰🇲",
+    "description": "Indian Ocean spice island cooking is underrated fr",
+    "dishes": [
+      { "name": "Langouste à la Vanille", "emoji": "🦞" },
+      { "name": "Pilao", "emoji": "🍚" },
+      { "name": "Mkatra Foutra", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "congo-drc",
+    "name": "Congo (DRC)",
+    "emoji": "🇨🇩",
+    "description": "Moambe chicken is giving sticky saucy perfection",
+    "dishes": [
+      { "name": "Moambe Chicken", "emoji": "🍗" },
+      { "name": "Fufu", "emoji": "🍚" },
+      { "name": "Saka Saka", "emoji": "🥬" }
+    ]
+  },
+  {
+    "id": "congo-republic",
+    "name": "Congo (Republic)",
+    "emoji": "🇨🇬",
+    "description": "River fish stews that are absolutely elite",
+    "dishes": [
+      { "name": "Poulet Moambé", "emoji": "🍗" },
+      { "name": "Liboke", "emoji": "🐟" },
+      { "name": "Ntaba", "emoji": "🍖" }
+    ]
+  },
+  {
+    "id": "costa-rica",
+    "name": "Costa Rica",
+    "emoji": "🇨🇷",
+    "description": "Gallo pinto for breakfast is just built different",
+    "dishes": [
+      { "name": "Gallo Pinto", "emoji": "🍚" },
+      { "name": "Casado", "emoji": "🍛" },
+      { "name": "Chifrijo", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "croatia",
+    "name": "Croatia",
+    "emoji": "🇭🇷",
+    "description": "Adriatic seafood meets Balkan comfort and it hits",
+    "dishes": [
+      { "name": "Peka", "emoji": "🍖" },
+      { "name": "Ćevapčići", "emoji": "🌭" },
+      { "name": "Štrukli", "emoji": "🥧" }
+    ]
+  },
+  {
+    "id": "cuba",
+    "name": "Cuba",
+    "emoji": "🇨🇺",
+    "description": "Ropa vieja is literally shredded perfection",
+    "dishes": [
+      { "name": "Ropa Vieja", "emoji": "🥩" },
+      { "name": "Cuban Sandwich", "emoji": "🥪" },
+      { "name": "Moros y Cristianos", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "cyprus",
+    "name": "Cyprus",
+    "emoji": "🇨🇾",
+    "description": "Halloumi is the cheese that refused to melt and won",
+    "dishes": [
+      { "name": "Halloumi", "emoji": "🧀" },
+      { "name": "Souvla", "emoji": "🍖" },
+      { "name": "Koupepia", "emoji": "🥬" }
+    ]
+  },
+  {
+    "id": "czechia",
+    "name": "Czechia",
+    "emoji": "🇨🇿",
+    "description": "Dumplings and beer is an S-tier combo no debate",
+    "dishes": [
+      { "name": "Svíčková", "emoji": "🍖" },
+      { "name": "Trdelník", "emoji": "🍩" },
+      { "name": "Knedlíky", "emoji": "🥟" }
+    ]
+  },
+  {
+    "id": "denmark",
+    "name": "Denmark",
+    "emoji": "🇩🇰",
+    "description": "Open-faced sandwiches are the original deconstructed food",
+    "dishes": [
+      { "name": "Smørrebrød", "emoji": "🥪" },
+      { "name": "Frikadeller", "emoji": "🍖" },
+      { "name": "Danish Pastry", "emoji": "🥐" }
+    ]
+  },
+  {
+    "id": "djibouti",
+    "name": "Djibouti",
+    "emoji": "🇩🇯",
+    "description": "Where East Africa and Arabia meet on a plate",
+    "dishes": [
+      { "name": "Skoudehkaris", "emoji": "🍚" },
+      { "name": "Fah-Fah", "emoji": "🍲" },
+      { "name": "Laxoox", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "dominica",
+    "name": "Dominica",
+    "emoji": "🇩🇲",
+    "description": "Mountain chicken is not what you think but it goes hard",
+    "dishes": [
+      { "name": "Callaloo Soup", "emoji": "🍲" },
+      { "name": "Bakes", "emoji": "🍞" },
+      { "name": "Crab Backs", "emoji": "🦀" }
+    ]
+  },
+  {
+    "id": "dominican-republic",
+    "name": "Dominican Republic",
+    "emoji": "🇩🇴",
+    "description": "La bandera is literally the flag of flavor",
+    "dishes": [
+      { "name": "La Bandera", "emoji": "🍛" },
+      { "name": "Mangú", "emoji": "🍌" },
+      { "name": "Sancocho", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "east-timor",
+    "name": "East Timor",
+    "emoji": "🇹🇱",
+    "description": "Southeast Asian island flavors that stay lowkey fire",
+    "dishes": [
+      { "name": "Ikan Pepes", "emoji": "🐟" },
+      { "name": "Batar Da'an", "emoji": "🌽" },
+      { "name": "Ai-Manas", "emoji": "🌶️" }
+    ]
+  },
+  {
+    "id": "ecuador",
+    "name": "Ecuador",
+    "emoji": "🇪🇨",
+    "description": "Encebollado is the hangover cure that actually works",
+    "dishes": [
+      { "name": "Encebollado", "emoji": "🐟" },
+      { "name": "Llapingachos", "emoji": "🥔" },
+      { "name": "Ceviche", "emoji": "🍋" }
+    ]
+  },
+  {
+    "id": "egypt",
+    "name": "Egypt",
+    "emoji": "🇪🇬",
+    "description": "Koshari is the OG street food mashup",
+    "dishes": [
+      { "name": "Koshari", "emoji": "🍝" },
+      { "name": "Ful Medames", "emoji": "🫘" },
+      { "name": "Molokhia", "emoji": "🥬" }
+    ]
+  },
+  {
+    "id": "el-salvador",
+    "name": "El Salvador",
+    "emoji": "🇸🇻",
+    "description": "Pupusas are stuffed pockets of absolute joy",
+    "dishes": [
+      { "name": "Pupusas", "emoji": "🫓" },
+      { "name": "Yuca Frita", "emoji": "🍟" },
+      { "name": "Sopa de Pata", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "equatorial-guinea",
+    "name": "Equatorial Guinea",
+    "emoji": "🇬🇶",
+    "description": "Central African coastal flavors with Spanish flair",
+    "dishes": [
+      { "name": "Succotash", "emoji": "🍲" },
+      { "name": "Pepper Soup", "emoji": "🌶️" },
+      { "name": "Akwadu", "emoji": "🍌" }
+    ]
+  },
+  {
+    "id": "eritrea",
+    "name": "Eritrea",
+    "emoji": "🇪🇷",
+    "description": "Injera platters with the squad is peak dining",
+    "dishes": [
+      { "name": "Zigni", "emoji": "🍖" },
+      { "name": "Injera", "emoji": "🫓" },
+      { "name": "Shiro", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "estonia",
+    "name": "Estonia",
+    "emoji": "🇪🇪",
+    "description": "Nordic x Baltic flavors that are quietly elite",
+    "dishes": [
+      { "name": "Verivorst", "emoji": "🌭" },
+      { "name": "Mulgipuder", "emoji": "🥔" },
+      { "name": "Kama", "emoji": "🥣" }
+    ]
+  },
+  {
+    "id": "eswatini",
+    "name": "Eswatini",
+    "emoji": "🇸🇿",
+    "description": "Southern African home cooking at its finest",
+    "dishes": [
+      { "name": "Karoo Roast", "emoji": "🍖" },
+      { "name": "Sishwala", "emoji": "🍚" },
+      { "name": "Incwancwa", "emoji": "🍚" }
     ]
   },
   {
     "id": "ethiopia",
     "name": "Ethiopia",
-    "emoji": "\ud83c\uddea\ud83c\uddf9",
+    "emoji": "🇪🇹",
     "description": "Eating with your hands is the main character energy",
     "dishes": [
-      { "name": "Doro Wat", "emoji": "\ud83c\udf57" },
-      { "name": "Injera", "emoji": "\ud83e\udd5e" },
-      { "name": "Kitfo", "emoji": "\ud83e\udd69" }
+      { "name": "Doro Wat", "emoji": "🍗" },
+      { "name": "Injera", "emoji": "🫓" },
+      { "name": "Kitfo", "emoji": "🥩" }
+    ]
+  },
+  {
+    "id": "fiji",
+    "name": "Fiji",
+    "emoji": "🇫🇯",
+    "description": "Kokoda in a coconut shell is the ultimate flex",
+    "dishes": [
+      { "name": "Kokoda", "emoji": "🐟" },
+      { "name": "Lovo", "emoji": "🍖" },
+      { "name": "Rourou", "emoji": "🥬" }
+    ]
+  },
+  {
+    "id": "finland",
+    "name": "Finland",
+    "emoji": "🇫🇮",
+    "description": "Saunas and salmon is genuinely the whole vibe",
+    "dishes": [
+      { "name": "Karjalanpiirakka", "emoji": "🥧" },
+      { "name": "Kalakukko", "emoji": "🐟" },
+      { "name": "Lohikeitto", "emoji": "🍲" }
     ]
   },
   {
     "id": "france",
     "name": "France",
-    "emoji": "\ud83c\uddeb\ud83c\uddf7",
+    "emoji": "🇫🇷",
     "description": "Bougie food that's lowkey worth the hype",
     "dishes": [
-      { "name": "Croissant", "emoji": "\ud83e\udd50" },
-      { "name": "Coq au Vin", "emoji": "\ud83c\udf57" },
-      { "name": "Cr\u00e8me Br\u00fbl\u00e9e", "emoji": "\ud83c\udf6e" }
+      { "name": "Croissant", "emoji": "🥐" },
+      { "name": "Coq au Vin", "emoji": "🍗" },
+      { "name": "Crème Brûlée", "emoji": "🍮" }
+    ]
+  },
+  {
+    "id": "gabon",
+    "name": "Gabon",
+    "emoji": "🇬🇦",
+    "description": "Rainforest ingredients making magic happen",
+    "dishes": [
+      { "name": "Nyembwe Chicken", "emoji": "🍗" },
+      { "name": "Mustard Chicken", "emoji": "🍗" },
+      { "name": "Beignets", "emoji": "🍩" }
+    ]
+  },
+  {
+    "id": "gambia",
+    "name": "Gambia",
+    "emoji": "🇬🇲",
+    "description": "Benachin is the original one-pot wonder",
+    "dishes": [
+      { "name": "Benachin", "emoji": "🍚" },
+      { "name": "Domoda", "emoji": "🥜" },
+      { "name": "Supakanja", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "georgia",
+    "name": "Georgia",
+    "emoji": "🇬🇪",
+    "description": "Khachapuri is literally a cheese boat and it's genius",
+    "dishes": [
+      { "name": "Khachapuri", "emoji": "🧀" },
+      { "name": "Khinkali", "emoji": "🥟" },
+      { "name": "Churchkhela", "emoji": "🍇" }
+    ]
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "emoji": "🇩🇪",
+    "description": "Sausage and pretzel game is legitimately unfair",
+    "dishes": [
+      { "name": "Bratwurst", "emoji": "🌭" },
+      { "name": "Pretzel", "emoji": "🥨" },
+      { "name": "Sauerbraten", "emoji": "🍖" }
+    ]
+  },
+  {
+    "id": "ghana",
+    "name": "Ghana",
+    "emoji": "🇬🇭",
+    "description": "Jollof wars aside the whole menu goes crazy",
+    "dishes": [
+      { "name": "Jollof Rice", "emoji": "🍚" },
+      { "name": "Waakye", "emoji": "🍚" },
+      { "name": "Kelewele", "emoji": "🍌" }
     ]
   },
   {
     "id": "greece",
     "name": "Greece",
-    "emoji": "\ud83c\uddec\ud83c\uddf7",
+    "emoji": "🇬🇷",
     "description": "Mediterranean clean eating before it was cool",
     "dishes": [
-      { "name": "Moussaka", "emoji": "\ud83c\udf46" },
-      { "name": "Souvlaki", "emoji": "\ud83c\udf62" },
-      { "name": "Spanakopita", "emoji": "\ud83e\udd67" }
+      { "name": "Moussaka", "emoji": "🍆" },
+      { "name": "Souvlaki", "emoji": "🍢" },
+      { "name": "Spanakopita", "emoji": "🥧" }
+    ]
+  },
+  {
+    "id": "grenada",
+    "name": "Grenada",
+    "emoji": "🇬🇩",
+    "description": "Spice island energy in every single dish",
+    "dishes": [
+      { "name": "Oil Down", "emoji": "🍲" },
+      { "name": "Nutmeg Ice Cream", "emoji": "🍨" },
+      { "name": "Callaloo", "emoji": "🥬" }
+    ]
+  },
+  {
+    "id": "guatemala",
+    "name": "Guatemala",
+    "emoji": "🇬🇹",
+    "description": "Ancient Mayan flavors still hitting in 2024",
+    "dishes": [
+      { "name": "Pepián", "emoji": "🍲" },
+      { "name": "Tamales", "emoji": "🫔" },
+      { "name": "Kak'ik", "emoji": "🍗" }
+    ]
+  },
+  {
+    "id": "guinea",
+    "name": "Guinea",
+    "emoji": "🇬🇳",
+    "description": "Peanut stews that are a whole warm hug",
+    "dishes": [
+      { "name": "Poulet Yassa", "emoji": "🍗" },
+      { "name": "Mafé", "emoji": "🥜" },
+      { "name": "Fouti", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "guinea-bissau",
+    "name": "Guinea-Bissau",
+    "emoji": "🇬🇼",
+    "description": "Cashew everything and zero regrets",
+    "dishes": [
+      { "name": "Caldo de Mancarra", "emoji": "🥜" },
+      { "name": "Jollof Rice", "emoji": "🍚" },
+      { "name": "Chabéu", "emoji": "🐟" }
+    ]
+  },
+  {
+    "id": "guyana",
+    "name": "Guyana",
+    "emoji": "🇬🇾",
+    "description": "Caribbean meets South American spice and it's unreal",
+    "dishes": [
+      { "name": "Pepperpot", "emoji": "🍲" },
+      { "name": "Roti", "emoji": "🫓" },
+      { "name": "Cook-Up Rice", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "haiti",
+    "name": "Haiti",
+    "emoji": "🇭🇹",
+    "description": "Griot is fried pork that goes absolutely crazy",
+    "dishes": [
+      { "name": "Griot", "emoji": "🍖" },
+      { "name": "Diri ak Djon Djon", "emoji": "🍚" },
+      { "name": "Soup Joumou", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "honduras",
+    "name": "Honduras",
+    "emoji": "🇭🇳",
+    "description": "Baleadas are the street food GOAT no discussion",
+    "dishes": [
+      { "name": "Baleadas", "emoji": "🫓" },
+      { "name": "Sopa de Caracol", "emoji": "🍲" },
+      { "name": "Plato Típico", "emoji": "🍛" }
+    ]
+  },
+  {
+    "id": "hungary",
+    "name": "Hungary",
+    "emoji": "🇭🇺",
+    "description": "Paprika is literally their whole personality and it works",
+    "dishes": [
+      { "name": "Goulash", "emoji": "🍲" },
+      { "name": "Lángos", "emoji": "🍩" },
+      { "name": "Chimney Cake", "emoji": "🍰" }
+    ]
+  },
+  {
+    "id": "iceland",
+    "name": "Iceland",
+    "emoji": "🇮🇸",
+    "description": "Eating fermented shark is an extreme sport tbh",
+    "dishes": [
+      { "name": "Plokkfiskur", "emoji": "🐟" },
+      { "name": "Lamb Soup", "emoji": "🍲" },
+      { "name": "Skyr", "emoji": "🥛" }
     ]
   },
   {
     "id": "india",
     "name": "India",
-    "emoji": "\ud83c\uddee\ud83c\uddf3",
+    "emoji": "🇮🇳",
     "description": "Spice levels that are genuinely unserious",
     "dishes": [
-      { "name": "Butter Chicken", "emoji": "\ud83c\udf5b" },
-      { "name": "Biryani", "emoji": "\ud83c\udf5a" },
-      { "name": "Samosa", "emoji": "\ud83e\udd5f" }
+      { "name": "Butter Chicken", "emoji": "🍛" },
+      { "name": "Biryani", "emoji": "🍚" },
+      { "name": "Samosa", "emoji": "🥟" }
+    ]
+  },
+  {
+    "id": "indonesia",
+    "name": "Indonesia",
+    "emoji": "🇮🇩",
+    "description": "17000 islands and somehow every single one cooks",
+    "dishes": [
+      { "name": "Nasi Goreng", "emoji": "🍚" },
+      { "name": "Rendang", "emoji": "🍖" },
+      { "name": "Satay", "emoji": "🍢" }
+    ]
+  },
+  {
+    "id": "iran",
+    "name": "Iran",
+    "emoji": "🇮🇷",
+    "description": "Saffron rice with tahdig crust is actual gold",
+    "dishes": [
+      { "name": "Tahdig", "emoji": "🍚" },
+      { "name": "Ghormeh Sabzi", "emoji": "🍲" },
+      { "name": "Kebab Koobideh", "emoji": "🍢" }
+    ]
+  },
+  {
+    "id": "iraq",
+    "name": "Iraq",
+    "emoji": "🇮🇶",
+    "description": "Mesopotamian flavors that have been hitting since day one",
+    "dishes": [
+      { "name": "Masgouf", "emoji": "🐟" },
+      { "name": "Dolma", "emoji": "🥬" },
+      { "name": "Kleicha", "emoji": "🍪" }
+    ]
+  },
+  {
+    "id": "ireland",
+    "name": "Ireland",
+    "emoji": "🇮🇪",
+    "description": "Stew and soda bread on a rainy day is pure comfort",
+    "dishes": [
+      { "name": "Irish Stew", "emoji": "🍲" },
+      { "name": "Soda Bread", "emoji": "🍞" },
+      { "name": "Boxty", "emoji": "🥔" }
+    ]
+  },
+  {
+    "id": "israel",
+    "name": "Israel",
+    "emoji": "🇮🇱",
+    "description": "Falafel and shakshuka are a whole morning ritual",
+    "dishes": [
+      { "name": "Shakshuka", "emoji": "🍳" },
+      { "name": "Falafel", "emoji": "🧆" },
+      { "name": "Sabich", "emoji": "🥪" }
     ]
   },
   {
     "id": "italy",
     "name": "Italy",
-    "emoji": "\ud83c\uddee\ud83c\uddf9",
+    "emoji": "🇮🇹",
     "description": "Less is more and it absolutely slaps",
     "dishes": [
-      { "name": "Pizza", "emoji": "\ud83c\udf55" },
-      { "name": "Pasta Carbonara", "emoji": "\ud83c\udf5d" },
-      { "name": "Gelato", "emoji": "\ud83c\udf68" }
+      { "name": "Pizza", "emoji": "🍕" },
+      { "name": "Pasta Carbonara", "emoji": "🍝" },
+      { "name": "Gelato", "emoji": "🍨" }
+    ]
+  },
+  {
+    "id": "ivory-coast",
+    "name": "Ivory Coast",
+    "emoji": "🇨🇮",
+    "description": "Attiéké with grilled fish is an absolute cheat code",
+    "dishes": [
+      { "name": "Attiéké", "emoji": "🍚" },
+      { "name": "Alloco", "emoji": "🍌" },
+      { "name": "Kedjenou", "emoji": "🍗" }
     ]
   },
   {
     "id": "jamaica",
     "name": "Jamaica",
-    "emoji": "\ud83c\uddef\ud83c\uddf2",
+    "emoji": "🇯🇲",
     "description": "Jerk spice is literally a whole personality",
     "dishes": [
-      { "name": "Jerk Chicken", "emoji": "\ud83c\udf57" },
-      { "name": "Ackee & Saltfish", "emoji": "\ud83c\udf73" },
-      { "name": "Patties", "emoji": "\ud83e\udd5f" }
+      { "name": "Jerk Chicken", "emoji": "🍗" },
+      { "name": "Ackee & Saltfish", "emoji": "🍳" },
+      { "name": "Patties", "emoji": "🥟" }
     ]
   },
   {
     "id": "japan",
     "name": "Japan",
-    "emoji": "\ud83c\uddef\ud83c\uddf5",
+    "emoji": "🇯🇵",
     "description": "Peak umami. No notes.",
     "dishes": [
-      { "name": "Sushi", "emoji": "\ud83c\udf63" },
-      { "name": "Ramen", "emoji": "\ud83c\udf5c" },
-      { "name": "Tempura", "emoji": "\ud83c\udf64" }
+      { "name": "Sushi", "emoji": "🍣" },
+      { "name": "Ramen", "emoji": "🍜" },
+      { "name": "Tempura", "emoji": "🍤" }
+    ]
+  },
+  {
+    "id": "jordan",
+    "name": "Jordan",
+    "emoji": "🇯🇴",
+    "description": "Mansaf is the ultimate communal feast energy",
+    "dishes": [
+      { "name": "Mansaf", "emoji": "🍚" },
+      { "name": "Falafel", "emoji": "🧆" },
+      { "name": "Knafeh", "emoji": "🍮" }
+    ]
+  },
+  {
+    "id": "kazakhstan",
+    "name": "Kazakhstan",
+    "emoji": "🇰🇿",
+    "description": "Nomadic steppe cooking that goes surprisingly hard",
+    "dishes": [
+      { "name": "Beshbarmak", "emoji": "🍖" },
+      { "name": "Baursaki", "emoji": "🍩" },
+      { "name": "Kurt", "emoji": "🧀" }
+    ]
+  },
+  {
+    "id": "kenya",
+    "name": "Kenya",
+    "emoji": "🇰🇪",
+    "description": "Nyama choma with ugali is the GOAT combo",
+    "dishes": [
+      { "name": "Nyama Choma", "emoji": "🍖" },
+      { "name": "Ugali", "emoji": "🍚" },
+      { "name": "Githeri", "emoji": "🫘" }
+    ]
+  },
+  {
+    "id": "kiribati",
+    "name": "Kiribati",
+    "emoji": "🇰🇮",
+    "description": "Pacific island fresh catch vibes all day",
+    "dishes": [
+      { "name": "Grilled Fish", "emoji": "🐟" },
+      { "name": "Palusami", "emoji": "🥬" },
+      { "name": "Breadfruit", "emoji": "🍞" }
+    ]
+  },
+  {
+    "id": "kuwait",
+    "name": "Kuwait",
+    "emoji": "🇰🇼",
+    "description": "Gulf cuisine with layers of spice and rice",
+    "dishes": [
+      { "name": "Machboos", "emoji": "🍚" },
+      { "name": "Harees", "emoji": "🍚" },
+      { "name": "Gers Ogaily", "emoji": "🍪" }
+    ]
+  },
+  {
+    "id": "kyrgyzstan",
+    "name": "Kyrgyzstan",
+    "emoji": "🇰🇬",
+    "description": "Mountain food that fuels actual nomads",
+    "dishes": [
+      { "name": "Beshbarmak", "emoji": "🍖" },
+      { "name": "Lagman", "emoji": "🍜" },
+      { "name": "Samsa", "emoji": "🥟" }
+    ]
+  },
+  {
+    "id": "laos",
+    "name": "Laos",
+    "emoji": "🇱🇦",
+    "description": "Sticky rice and larb is a whole lifestyle",
+    "dishes": [
+      { "name": "Larb", "emoji": "🥬" },
+      { "name": "Sticky Rice", "emoji": "🍚" },
+      { "name": "Khao Piak Sen", "emoji": "🍜" }
+    ]
+  },
+  {
+    "id": "latvia",
+    "name": "Latvia",
+    "emoji": "🇱🇻",
+    "description": "Rye bread so good they built a culture around it",
+    "dishes": [
+      { "name": "Rupjmaize", "emoji": "🍞" },
+      { "name": "Pīrāgi", "emoji": "🥟" },
+      { "name": "Skābeņu Zupa", "emoji": "🍲" }
     ]
   },
   {
     "id": "lebanon",
     "name": "Lebanon",
-    "emoji": "\ud83c\uddf1\ud83c\udde7",
+    "emoji": "🇱🇧",
     "description": "The shawarma alone is a whole vibe",
     "dishes": [
-      { "name": "Hummus", "emoji": "\ud83e\udec8" },
-      { "name": "Shawarma", "emoji": "\ud83c\udf2f" },
-      { "name": "Tabbouleh", "emoji": "\ud83e\udd57" }
+      { "name": "Hummus", "emoji": "🫘" },
+      { "name": "Shawarma", "emoji": "🌯" },
+      { "name": "Tabbouleh", "emoji": "🥗" }
+    ]
+  },
+  {
+    "id": "lesotho",
+    "name": "Lesotho",
+    "emoji": "🇱🇸",
+    "description": "Mountain kingdom comfort food that warms you up",
+    "dishes": [
+      { "name": "Papa", "emoji": "🍚" },
+      { "name": "Moroho", "emoji": "🥬" },
+      { "name": "Nyekoe", "emoji": "🫘" }
+    ]
+  },
+  {
+    "id": "liberia",
+    "name": "Liberia",
+    "emoji": "🇱🇷",
+    "description": "Jollof rice and palm butter soup go crazy",
+    "dishes": [
+      { "name": "Jollof Rice", "emoji": "🍚" },
+      { "name": "Palm Butter Soup", "emoji": "🍲" },
+      { "name": "Dumboy", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "libya",
+    "name": "Libya",
+    "emoji": "🇱🇾",
+    "description": "Bazeen is the North African dish that goes hard",
+    "dishes": [
+      { "name": "Bazeen", "emoji": "🍚" },
+      { "name": "Sharba", "emoji": "🍲" },
+      { "name": "Asida", "emoji": "🍮" }
+    ]
+  },
+  {
+    "id": "liechtenstein",
+    "name": "Liechtenstein",
+    "emoji": "🇱🇮",
+    "description": "Tiny country with cozy Alpine food energy",
+    "dishes": [
+      { "name": "Käsknöpfle", "emoji": "🧀" },
+      { "name": "Ribel", "emoji": "🌽" },
+      { "name": "Pastétli", "emoji": "🥧" }
+    ]
+  },
+  {
+    "id": "lithuania",
+    "name": "Lithuania",
+    "emoji": "🇱🇹",
+    "description": "Cepelinai are literally potato zeppelins and that's iconic",
+    "dishes": [
+      { "name": "Cepelinai", "emoji": "🥔" },
+      { "name": "Šaltibarščiai", "emoji": "🍲" },
+      { "name": "Kibinai", "emoji": "🥟" }
+    ]
+  },
+  {
+    "id": "luxembourg",
+    "name": "Luxembourg",
+    "emoji": "🇱🇺",
+    "description": "French-German fusion with its own whole vibe",
+    "dishes": [
+      { "name": "Judd mat Gaardebounen", "emoji": "🍖" },
+      { "name": "Gromperekichelcher", "emoji": "🥔" },
+      { "name": "Quetschentaart", "emoji": "🥧" }
+    ]
+  },
+  {
+    "id": "madagascar",
+    "name": "Madagascar",
+    "emoji": "🇲🇬",
+    "description": "Vanilla island with rice game on another level",
+    "dishes": [
+      { "name": "Romazava", "emoji": "🍲" },
+      { "name": "Ravitoto", "emoji": "🥬" },
+      { "name": "Mofo Gasy", "emoji": "🍞" }
+    ]
+  },
+  {
+    "id": "malawi",
+    "name": "Malawi",
+    "emoji": "🇲🇼",
+    "description": "Lake Malawi fish with nsima is the warm heart of Africa",
+    "dishes": [
+      { "name": "Nsima", "emoji": "🍚" },
+      { "name": "Chambo", "emoji": "🐟" },
+      { "name": "Mandasi", "emoji": "🍩" }
+    ]
+  },
+  {
+    "id": "malaysia",
+    "name": "Malaysia",
+    "emoji": "🇲🇾",
+    "description": "The hawker center experience is genuinely unmatched",
+    "dishes": [
+      { "name": "Nasi Lemak", "emoji": "🍚" },
+      { "name": "Char Kway Teow", "emoji": "🍜" },
+      { "name": "Roti Canai", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "maldives",
+    "name": "Maldives",
+    "emoji": "🇲🇻",
+    "description": "Tuna and coconut on a tropical island is peak",
+    "dishes": [
+      { "name": "Garudhiya", "emoji": "🐟" },
+      { "name": "Mas Huni", "emoji": "🐟" },
+      { "name": "Fihunu Mas", "emoji": "🍢" }
+    ]
+  },
+  {
+    "id": "mali",
+    "name": "Mali",
+    "emoji": "🇲🇱",
+    "description": "Tiguadege Na is peanut butter stew and it's elite",
+    "dishes": [
+      { "name": "Tiguadege Na", "emoji": "🥜" },
+      { "name": "Jollof Rice", "emoji": "🍚" },
+      { "name": "Fakoye", "emoji": "🐟" }
+    ]
+  },
+  {
+    "id": "malta",
+    "name": "Malta",
+    "emoji": "🇲🇹",
+    "description": "Mediterranean island bites that punch above their weight",
+    "dishes": [
+      { "name": "Pastizzi", "emoji": "🥧" },
+      { "name": "Rabbit Stew", "emoji": "🍲" },
+      { "name": "Ftira", "emoji": "🍞" }
+    ]
+  },
+  {
+    "id": "marshall-islands",
+    "name": "Marshall Islands",
+    "emoji": "🇲🇭",
+    "description": "Fresh Pacific seafood that needs no seasoning",
+    "dishes": [
+      { "name": "Grilled Fish", "emoji": "🐟" },
+      { "name": "Coconut Crab", "emoji": "🦀" },
+      { "name": "Rice Balls", "emoji": "🍙" }
+    ]
+  },
+  {
+    "id": "mauritania",
+    "name": "Mauritania",
+    "emoji": "🇲🇷",
+    "description": "Desert tea culture and hearty couscous vibes",
+    "dishes": [
+      { "name": "Thieboudienne", "emoji": "🐟" },
+      { "name": "Couscous", "emoji": "🍚" },
+      { "name": "Mechoui", "emoji": "🍖" }
+    ]
+  },
+  {
+    "id": "mauritius",
+    "name": "Mauritius",
+    "emoji": "🇲🇺",
+    "description": "Indian French Chinese Creole fusion island that cooks",
+    "dishes": [
+      { "name": "Dholl Puri", "emoji": "🫓" },
+      { "name": "Rougaille", "emoji": "🍲" },
+      { "name": "Gâteau Piment", "emoji": "🌶️" }
     ]
   },
   {
     "id": "mexico",
     "name": "Mexico",
-    "emoji": "\ud83c\uddf2\ud83c\uddfd",
+    "emoji": "🇲🇽",
     "description": "Taco Tuesday is a lifestyle not a day",
     "dishes": [
-      { "name": "Tacos", "emoji": "\ud83c\udf2e" },
-      { "name": "Mole", "emoji": "\ud83c\udf72" },
-      { "name": "Tamales", "emoji": "\ud83e\udec4" }
+      { "name": "Tacos", "emoji": "🌮" },
+      { "name": "Mole", "emoji": "🍲" },
+      { "name": "Tamales", "emoji": "🫔" }
+    ]
+  },
+  {
+    "id": "micronesia",
+    "name": "Micronesia",
+    "emoji": "🇫🇲",
+    "description": "Tropical breadfruit and reef fish keeping it simple",
+    "dishes": [
+      { "name": "Breadfruit", "emoji": "🍞" },
+      { "name": "Grilled Reef Fish", "emoji": "🐟" },
+      { "name": "Taro", "emoji": "🍠" }
+    ]
+  },
+  {
+    "id": "moldova",
+    "name": "Moldova",
+    "emoji": "🇲🇩",
+    "description": "Wine country comfort food that deserves more hype",
+    "dishes": [
+      { "name": "Mămăligă", "emoji": "🌽" },
+      { "name": "Sarmale", "emoji": "🥬" },
+      { "name": "Plăcinte", "emoji": "🥧" }
+    ]
+  },
+  {
+    "id": "monaco",
+    "name": "Monaco",
+    "emoji": "🇲🇨",
+    "description": "Rich people food but make it Mediterranean",
+    "dishes": [
+      { "name": "Barbagiuan", "emoji": "🥟" },
+      { "name": "Socca", "emoji": "🫓" },
+      { "name": "Stocafi", "emoji": "🐟" }
+    ]
+  },
+  {
+    "id": "mongolia",
+    "name": "Mongolia",
+    "emoji": "🇲🇳",
+    "description": "Eating dumplings in a yurt is actually goals",
+    "dishes": [
+      { "name": "Buuz", "emoji": "🥟" },
+      { "name": "Khuushuur", "emoji": "🥟" },
+      { "name": "Airag", "emoji": "🥛" }
+    ]
+  },
+  {
+    "id": "montenegro",
+    "name": "Montenegro",
+    "emoji": "🇲🇪",
+    "description": "Adriatic coast meets mountain grill and it bangs",
+    "dishes": [
+      { "name": "Njeguški Steak", "emoji": "🥩" },
+      { "name": "Kačamak", "emoji": "🌽" },
+      { "name": "Ćevapi", "emoji": "🌭" }
     ]
   },
   {
     "id": "morocco",
     "name": "Morocco",
-    "emoji": "\ud83c\uddf2\ud83c\udde6",
+    "emoji": "🇲🇦",
     "description": "Tagine is giving slow-cooked perfection",
     "dishes": [
-      { "name": "Tagine", "emoji": "\ud83c\udf72" },
-      { "name": "Couscous", "emoji": "\ud83c\udf5a" },
-      { "name": "Pastilla", "emoji": "\ud83e\udd67" }
+      { "name": "Tagine", "emoji": "🍲" },
+      { "name": "Couscous", "emoji": "🍚" },
+      { "name": "Pastilla", "emoji": "🥧" }
+    ]
+  },
+  {
+    "id": "mozambique",
+    "name": "Mozambique",
+    "emoji": "🇲🇿",
+    "description": "Peri-peri prawns are an absolute game changer",
+    "dishes": [
+      { "name": "Peri-Peri Prawns", "emoji": "🍤" },
+      { "name": "Matapa", "emoji": "🥬" },
+      { "name": "Xima", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "myanmar",
+    "name": "Myanmar",
+    "emoji": "🇲🇲",
+    "description": "Mohinga for breakfast is actually life-changing",
+    "dishes": [
+      { "name": "Mohinga", "emoji": "🍜" },
+      { "name": "Tea Leaf Salad", "emoji": "🥗" },
+      { "name": "Shan Noodles", "emoji": "🍜" }
+    ]
+  },
+  {
+    "id": "namibia",
+    "name": "Namibia",
+    "emoji": "🇳🇦",
+    "description": "Game meat and potjiekos in the desert is a vibe",
+    "dishes": [
+      { "name": "Potjiekos", "emoji": "🍲" },
+      { "name": "Biltong", "emoji": "🥩" },
+      { "name": "Kapana", "emoji": "🍖" }
+    ]
+  },
+  {
+    "id": "nauru",
+    "name": "Nauru",
+    "emoji": "🇳🇷",
+    "description": "Tiny island big coconut energy",
+    "dishes": [
+      { "name": "Coconut Fish", "emoji": "🐟" },
+      { "name": "Pandanus Fruit", "emoji": "🍈" },
+      { "name": "Fried Rice", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "nepal",
+    "name": "Nepal",
+    "emoji": "🇳🇵",
+    "description": "Momos are the Himalayan dumpling that runs the world",
+    "dishes": [
+      { "name": "Momos", "emoji": "🥟" },
+      { "name": "Dal Bhat", "emoji": "🍛" },
+      { "name": "Sel Roti", "emoji": "🍩" }
+    ]
+  },
+  {
+    "id": "netherlands",
+    "name": "Netherlands",
+    "emoji": "🇳🇱",
+    "description": "Stroopwafels are basically edible serotonin",
+    "dishes": [
+      { "name": "Stroopwafels", "emoji": "🧇" },
+      { "name": "Bitterballen", "emoji": "🍖" },
+      { "name": "Stamppot", "emoji": "🥔" }
+    ]
+  },
+  {
+    "id": "new-zealand",
+    "name": "New Zealand",
+    "emoji": "🇳🇿",
+    "description": "Hāngi cooked in the earth is literally next level",
+    "dishes": [
+      { "name": "Hāngi", "emoji": "🍖" },
+      { "name": "Pavlova", "emoji": "🍰" },
+      { "name": "Meat Pie", "emoji": "🥧" }
+    ]
+  },
+  {
+    "id": "nicaragua",
+    "name": "Nicaragua",
+    "emoji": "🇳🇮",
+    "description": "Nacatamal is the tamale's beefy older sibling",
+    "dishes": [
+      { "name": "Nacatamal", "emoji": "🫔" },
+      { "name": "Gallo Pinto", "emoji": "🍚" },
+      { "name": "Vigorón", "emoji": "🍖" }
+    ]
+  },
+  {
+    "id": "niger",
+    "name": "Niger",
+    "emoji": "🇳🇪",
+    "description": "Saharan resilience on a plate with big flavor",
+    "dishes": [
+      { "name": "Djerma Stew", "emoji": "🍲" },
+      { "name": "Kilishi", "emoji": "🥩" },
+      { "name": "Tuwo", "emoji": "🍚" }
     ]
   },
   {
     "id": "nigeria",
     "name": "Nigeria",
-    "emoji": "\ud83c\uddf3\ud83c\uddec",
+    "emoji": "🇳🇬",
     "description": "Jollof rice discourse is never ending for a reason",
     "dishes": [
-      { "name": "Jollof Rice", "emoji": "\ud83c\udf5a" },
-      { "name": "Suya", "emoji": "\ud83c\udf62" },
-      { "name": "Puff Puff", "emoji": "\ud83e\uddc1" }
+      { "name": "Jollof Rice", "emoji": "🍚" },
+      { "name": "Suya", "emoji": "🍢" },
+      { "name": "Puff Puff", "emoji": "🍩" }
+    ]
+  },
+  {
+    "id": "north-korea",
+    "name": "North Korea",
+    "emoji": "🇰🇵",
+    "description": "Cold noodles that are genuinely iconic",
+    "dishes": [
+      { "name": "Naengmyeon", "emoji": "🍜" },
+      { "name": "Kimchi", "emoji": "🥬" },
+      { "name": "Injo Gogi Bap", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "north-macedonia",
+    "name": "North Macedonia",
+    "emoji": "🇲🇰",
+    "description": "Tavče gravče is beans done right no cap",
+    "dishes": [
+      { "name": "Tavče Gravče", "emoji": "🫘" },
+      { "name": "Ajvar", "emoji": "🌶️" },
+      { "name": "Burek", "emoji": "🥧" }
+    ]
+  },
+  {
+    "id": "norway",
+    "name": "Norway",
+    "emoji": "🇳🇴",
+    "description": "Salmon and fjord vibes is a whole aesthetic",
+    "dishes": [
+      { "name": "Fårikål", "emoji": "🍖" },
+      { "name": "Brunost", "emoji": "🧀" },
+      { "name": "Rakfisk", "emoji": "🐟" }
+    ]
+  },
+  {
+    "id": "oman",
+    "name": "Oman",
+    "emoji": "🇴🇲",
+    "description": "Shuwa slow-cooked in the sand is genuinely unreal",
+    "dishes": [
+      { "name": "Shuwa", "emoji": "🍖" },
+      { "name": "Harees", "emoji": "🍚" },
+      { "name": "Halwa", "emoji": "🍮" }
+    ]
+  },
+  {
+    "id": "pakistan",
+    "name": "Pakistan",
+    "emoji": "🇵🇰",
+    "description": "Nihari at sunrise is a spiritual experience fr",
+    "dishes": [
+      { "name": "Nihari", "emoji": "🍲" },
+      { "name": "Biryani", "emoji": "🍚" },
+      { "name": "Seekh Kebab", "emoji": "🍢" }
+    ]
+  },
+  {
+    "id": "palau",
+    "name": "Palau",
+    "emoji": "🇵🇼",
+    "description": "Crystal clear waters crystal clear flavors",
+    "dishes": [
+      { "name": "Ulkoy", "emoji": "🐟" },
+      { "name": "Taro Leaf Soup", "emoji": "🍲" },
+      { "name": "Fruit Bat Soup", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "palestine",
+    "name": "Palestine",
+    "emoji": "🇵🇸",
+    "description": "Musakhan is the onion and sumac combo that goes insane",
+    "dishes": [
+      { "name": "Musakhan", "emoji": "🍗" },
+      { "name": "Maqluba", "emoji": "🍚" },
+      { "name": "Knafeh", "emoji": "🍮" }
+    ]
+  },
+  {
+    "id": "panama",
+    "name": "Panama",
+    "emoji": "🇵🇦",
+    "description": "Sancocho is the soup that fixes everything",
+    "dishes": [
+      { "name": "Sancocho", "emoji": "🍲" },
+      { "name": "Carimañolas", "emoji": "🥟" },
+      { "name": "Arroz con Pollo", "emoji": "🍗" }
+    ]
+  },
+  {
+    "id": "papua-new-guinea",
+    "name": "Papua New Guinea",
+    "emoji": "🇵🇬",
+    "description": "Mumu earth oven cooking is the OG slow cook",
+    "dishes": [
+      { "name": "Mumu", "emoji": "🍖" },
+      { "name": "Sago", "emoji": "🍚" },
+      { "name": "Kaukau", "emoji": "🍠" }
+    ]
+  },
+  {
+    "id": "paraguay",
+    "name": "Paraguay",
+    "emoji": "🇵🇾",
+    "description": "Chipa bread and tereré is the afternoon reset",
+    "dishes": [
+      { "name": "Sopa Paraguaya", "emoji": "🌽" },
+      { "name": "Chipa", "emoji": "🍞" },
+      { "name": "Mbejú", "emoji": "🫓" }
     ]
   },
   {
     "id": "peru",
     "name": "Peru",
-    "emoji": "\ud83c\uddf5\ud83c\uddea",
+    "emoji": "🇵🇪",
     "description": "The crossover episode nobody expected but everyone needed",
     "dishes": [
-      { "name": "Ceviche", "emoji": "\ud83c\udf1f" },
-      { "name": "Lomo Saltado", "emoji": "\ud83e\udd69" },
-      { "name": "Causa", "emoji": "\ud83e\udd54" }
+      { "name": "Ceviche", "emoji": "🐟" },
+      { "name": "Lomo Saltado", "emoji": "🥩" },
+      { "name": "Causa", "emoji": "🥔" }
+    ]
+  },
+  {
+    "id": "philippines",
+    "name": "Philippines",
+    "emoji": "🇵🇭",
+    "description": "Adobo is the dish that every Filipino will go to war for",
+    "dishes": [
+      { "name": "Adobo", "emoji": "🍗" },
+      { "name": "Sinigang", "emoji": "🍲" },
+      { "name": "Lechon", "emoji": "🍖" }
+    ]
+  },
+  {
+    "id": "poland",
+    "name": "Poland",
+    "emoji": "🇵🇱",
+    "description": "Pierogi are the stuffed dumpling that never misses",
+    "dishes": [
+      { "name": "Pierogi", "emoji": "🥟" },
+      { "name": "Żurek", "emoji": "🍲" },
+      { "name": "Bigos", "emoji": "🍲" }
+    ]
+  },
+  {
+    "id": "portugal",
+    "name": "Portugal",
+    "emoji": "🇵🇹",
+    "description": "Pastéis de nata fresh out the oven is actual heaven",
+    "dishes": [
+      { "name": "Pastéis de Nata", "emoji": "🥧" },
+      { "name": "Bacalhau", "emoji": "🐟" },
+      { "name": "Francesinha", "emoji": "🥪" }
+    ]
+  },
+  {
+    "id": "qatar",
+    "name": "Qatar",
+    "emoji": "🇶🇦",
+    "description": "Gulf luxury dining meets traditional spice",
+    "dishes": [
+      { "name": "Machboos", "emoji": "🍚" },
+      { "name": "Luqaimat", "emoji": "🍩" },
+      { "name": "Harees", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "romania",
+    "name": "Romania",
+    "emoji": "🇷🇴",
+    "description": "Mici at a summer grill is peak Balkan energy",
+    "dishes": [
+      { "name": "Mici", "emoji": "🌭" },
+      { "name": "Sarmale", "emoji": "🥬" },
+      { "name": "Mămăligă", "emoji": "🌽" }
+    ]
+  },
+  {
+    "id": "russia",
+    "name": "Russia",
+    "emoji": "🇷🇺",
+    "description": "Borscht and pelmeni in the cold is just built different",
+    "dishes": [
+      { "name": "Borscht", "emoji": "🍲" },
+      { "name": "Pelmeni", "emoji": "🥟" },
+      { "name": "Blini", "emoji": "🥞" }
+    ]
+  },
+  {
+    "id": "rwanda",
+    "name": "Rwanda",
+    "emoji": "🇷🇼",
+    "description": "Simple clean flavors that taste like home",
+    "dishes": [
+      { "name": "Brochettes", "emoji": "🍢" },
+      { "name": "Isombe", "emoji": "🥬" },
+      { "name": "Ugali", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "saint-kitts-and-nevis",
+    "name": "Saint Kitts and Nevis",
+    "emoji": "🇰🇳",
+    "description": "Stewed saltfish for breakfast is the island way",
+    "dishes": [
+      { "name": "Stewed Saltfish", "emoji": "🐟" },
+      { "name": "Pelau", "emoji": "🍚" },
+      { "name": "Coconut Dumplings", "emoji": "🥟" }
+    ]
+  },
+  {
+    "id": "saint-lucia",
+    "name": "Saint Lucia",
+    "emoji": "🇱🇨",
+    "description": "Green banana and saltfish is the comfort food GOAT",
+    "dishes": [
+      { "name": "Green Fig & Saltfish", "emoji": "🐟" },
+      { "name": "Bouyon", "emoji": "🍲" },
+      { "name": "Accra", "emoji": "🍤" }
+    ]
+  },
+  {
+    "id": "saint-vincent-and-the-grenadines",
+    "name": "Saint Vincent and the Grenadines",
+    "emoji": "🇻🇨",
+    "description": "Roasted breadfruit with jackfish is island perfection",
+    "dishes": [
+      { "name": "Roasted Breadfruit", "emoji": "🍞" },
+      { "name": "Callaloo Soup", "emoji": "🍲" },
+      { "name": "Fried Jackfish", "emoji": "🐟" }
+    ]
+  },
+  {
+    "id": "samoa",
+    "name": "Samoa",
+    "emoji": "🇼🇸",
+    "description": "Umu feast with the family is pure Pacific joy",
+    "dishes": [
+      { "name": "Oka", "emoji": "🐟" },
+      { "name": "Palusami", "emoji": "🥬" },
+      { "name": "Panipopo", "emoji": "🍞" }
+    ]
+  },
+  {
+    "id": "san-marino",
+    "name": "San Marino",
+    "emoji": "🇸🇲",
+    "description": "Micro state macro flavor energy",
+    "dishes": [
+      { "name": "Torta Tre Monti", "emoji": "🍰" },
+      { "name": "Faggioli con le Cotiche", "emoji": "🫘" },
+      { "name": "Pasta e Ceci", "emoji": "🍝" }
+    ]
+  },
+  {
+    "id": "sao-tome-and-principe",
+    "name": "São Tomé and Príncipe",
+    "emoji": "🇸🇹",
+    "description": "Chocolate island with tropical stews that go off",
+    "dishes": [
+      { "name": "Calulu", "emoji": "🐟" },
+      { "name": "Chocolate", "emoji": "🍫" },
+      { "name": "Banana Frita", "emoji": "🍌" }
+    ]
+  },
+  {
+    "id": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "emoji": "🇸🇦",
+    "description": "Kabsa is the rice dish that unites a whole kingdom",
+    "dishes": [
+      { "name": "Kabsa", "emoji": "🍚" },
+      { "name": "Mandi", "emoji": "🍖" },
+      { "name": "Jareesh", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "senegal",
+    "name": "Senegal",
+    "emoji": "🇸🇳",
+    "description": "Thiéboudienne is literally the dish that cooks itself a throne",
+    "dishes": [
+      { "name": "Thiéboudienne", "emoji": "🐟" },
+      { "name": "Yassa Poulet", "emoji": "🍗" },
+      { "name": "Mafé", "emoji": "🥜" }
+    ]
+  },
+  {
+    "id": "serbia",
+    "name": "Serbia",
+    "emoji": "🇷🇸",
+    "description": "Ćevapi and kajmak is the combo that ended all combos",
+    "dishes": [
+      { "name": "Ćevapi", "emoji": "🌭" },
+      { "name": "Pljeskavica", "emoji": "🍔" },
+      { "name": "Ajvar", "emoji": "🌶️" }
+    ]
+  },
+  {
+    "id": "seychelles",
+    "name": "Seychelles",
+    "emoji": "🇸🇨",
+    "description": "Creole island fusion that's paradise on a plate",
+    "dishes": [
+      { "name": "Octopus Curry", "emoji": "🍛" },
+      { "name": "Ladob", "emoji": "🍌" },
+      { "name": "Shark Chutney", "emoji": "🐟" }
+    ]
+  },
+  {
+    "id": "sierra-leone",
+    "name": "Sierra Leone",
+    "emoji": "🇸🇱",
+    "description": "Cassava leaf stew is the ultimate comfort bowl",
+    "dishes": [
+      { "name": "Cassava Leaf Stew", "emoji": "🍲" },
+      { "name": "Jollof Rice", "emoji": "🍚" },
+      { "name": "Groundnut Soup", "emoji": "🥜" }
+    ]
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "emoji": "🇸🇬",
+    "description": "Hawker centers are basically Michelin star food courts",
+    "dishes": [
+      { "name": "Hainanese Chicken Rice", "emoji": "🍗" },
+      { "name": "Chilli Crab", "emoji": "🦀" },
+      { "name": "Laksa", "emoji": "🍜" }
+    ]
+  },
+  {
+    "id": "slovakia",
+    "name": "Slovakia",
+    "emoji": "🇸🇰",
+    "description": "Bryndzové halušky is dumplings with sheep cheese and that's a W",
+    "dishes": [
+      { "name": "Bryndzové Halušky", "emoji": "🥟" },
+      { "name": "Kapustnica", "emoji": "🍲" },
+      { "name": "Trdelník", "emoji": "🍩" }
+    ]
+  },
+  {
+    "id": "slovenia",
+    "name": "Slovenia",
+    "emoji": "🇸🇮",
+    "description": "Alpine x Mediterranean and it genuinely bangs",
+    "dishes": [
+      { "name": "Potica", "emoji": "🍰" },
+      { "name": "Štruklji", "emoji": "🥟" },
+      { "name": "Kraški Pršut", "emoji": "🥩" }
+    ]
+  },
+  {
+    "id": "solomon-islands",
+    "name": "Solomon Islands",
+    "emoji": "🇸🇧",
+    "description": "Tropical root veggies and fresh catch every day",
+    "dishes": [
+      { "name": "Poi", "emoji": "🍠" },
+      { "name": "Coconut Crab", "emoji": "🦀" },
+      { "name": "Cassava Pudding", "emoji": "🍮" }
+    ]
+  },
+  {
+    "id": "somalia",
+    "name": "Somalia",
+    "emoji": "🇸🇴",
+    "description": "Canjeero with suqaar is breakfast done right",
+    "dishes": [
+      { "name": "Canjeero", "emoji": "🫓" },
+      { "name": "Suqaar", "emoji": "🍖" },
+      { "name": "Bariis Iskukaris", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "south-africa",
+    "name": "South Africa",
+    "emoji": "🇿🇦",
+    "description": "Braai culture is literally a whole way of life",
+    "dishes": [
+      { "name": "Braai", "emoji": "🍖" },
+      { "name": "Bobotie", "emoji": "🍛" },
+      { "name": "Bunny Chow", "emoji": "🍞" }
     ]
   },
   {
     "id": "south-korea",
     "name": "South Korea",
-    "emoji": "\ud83c\uddf0\ud83c\uddf7",
+    "emoji": "🇰🇷",
     "description": "K-food era is not slowing down",
     "dishes": [
-      { "name": "Kimchi", "emoji": "\ud83e\udd6c" },
-      { "name": "Bibimbap", "emoji": "\ud83c\udf5c" },
-      { "name": "Korean BBQ", "emoji": "\ud83c\udf56" }
+      { "name": "Kimchi", "emoji": "🥬" },
+      { "name": "Bibimbap", "emoji": "🍜" },
+      { "name": "Korean BBQ", "emoji": "🍖" }
+    ]
+  },
+  {
+    "id": "south-sudan",
+    "name": "South Sudan",
+    "emoji": "🇸🇸",
+    "description": "Kisra and stew keeping traditions alive",
+    "dishes": [
+      { "name": "Kisra", "emoji": "🫓" },
+      { "name": "Asida", "emoji": "🍚" },
+      { "name": "Ful Medames", "emoji": "🫘" }
     ]
   },
   {
     "id": "spain",
     "name": "Spain",
-    "emoji": "\ud83c\uddea\ud83c\uddf8",
+    "emoji": "🇪🇸",
     "description": "Small plates but make it a whole personality",
     "dishes": [
-      { "name": "Paella", "emoji": "\ud83e\udd58" },
-      { "name": "Tapas", "emoji": "\ud83e\uddc6" },
-      { "name": "Churros", "emoji": "\ud83e\udec3" }
+      { "name": "Paella", "emoji": "🥘" },
+      { "name": "Tapas", "emoji": "🧆" },
+      { "name": "Churros", "emoji": "🍩" }
+    ]
+  },
+  {
+    "id": "sri-lanka",
+    "name": "Sri Lanka",
+    "emoji": "🇱🇰",
+    "description": "Coconut sambol with everything is non-negotiable",
+    "dishes": [
+      { "name": "Rice and Curry", "emoji": "🍛" },
+      { "name": "Hoppers", "emoji": "🥞" },
+      { "name": "Kottu Roti", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "sudan",
+    "name": "Sudan",
+    "emoji": "🇸🇩",
+    "description": "Ful and kisra keeping it real since forever",
+    "dishes": [
+      { "name": "Ful Medames", "emoji": "🫘" },
+      { "name": "Kisra", "emoji": "🫓" },
+      { "name": "Asida", "emoji": "🍚" }
+    ]
+  },
+  {
+    "id": "suriname",
+    "name": "Suriname",
+    "emoji": "🇸🇷",
+    "description": "Dutch x Indonesian x Caribbean x Indian and it all works somehow",
+    "dishes": [
+      { "name": "Roti", "emoji": "🫓" },
+      { "name": "Pom", "emoji": "🍠" },
+      { "name": "Bakabana", "emoji": "🍌" }
+    ]
+  },
+  {
+    "id": "sweden",
+    "name": "Sweden",
+    "emoji": "🇸🇪",
+    "description": "Meatballs from IKEA are just the beginning fr",
+    "dishes": [
+      { "name": "Swedish Meatballs", "emoji": "🍖" },
+      { "name": "Smörgåsbord", "emoji": "🥪" },
+      { "name": "Kanelbullar", "emoji": "🍩" }
+    ]
+  },
+  {
+    "id": "switzerland",
+    "name": "Switzerland",
+    "emoji": "🇨🇭",
+    "description": "Fondue and chocolate is the ultimate self-care combo",
+    "dishes": [
+      { "name": "Fondue", "emoji": "🧀" },
+      { "name": "Rösti", "emoji": "🥔" },
+      { "name": "Chocolate", "emoji": "🍫" }
+    ]
+  },
+  {
+    "id": "syria",
+    "name": "Syria",
+    "emoji": "🇸🇾",
+    "description": "Aleppo cuisine is genuinely one of the greatest ever",
+    "dishes": [
+      { "name": "Kibbeh", "emoji": "🧆" },
+      { "name": "Fattoush", "emoji": "🥗" },
+      { "name": "Shawarma", "emoji": "🌯" }
+    ]
+  },
+  {
+    "id": "taiwan",
+    "name": "Taiwan",
+    "emoji": "🇹🇼",
+    "description": "Night market food is the final boss of street eats",
+    "dishes": [
+      { "name": "Beef Noodle Soup", "emoji": "🍜" },
+      { "name": "Bubble Tea", "emoji": "🧋" },
+      { "name": "Gua Bao", "emoji": "🥟" }
+    ]
+  },
+  {
+    "id": "tajikistan",
+    "name": "Tajikistan",
+    "emoji": "🇹🇯",
+    "description": "Central Asian comfort food with mountain vibes",
+    "dishes": [
+      { "name": "Qurutob", "emoji": "🍚" },
+      { "name": "Plov", "emoji": "🍚" },
+      { "name": "Sambusa", "emoji": "🥟" }
+    ]
+  },
+  {
+    "id": "tanzania",
+    "name": "Tanzania",
+    "emoji": "🇹🇿",
+    "description": "Zanzibar spice island cooking is straight fire",
+    "dishes": [
+      { "name": "Ugali na Nyama", "emoji": "🍖" },
+      { "name": "Pilau", "emoji": "🍚" },
+      { "name": "Zanzibar Pizza", "emoji": "🫓" }
     ]
   },
   {
     "id": "thailand",
     "name": "Thailand",
-    "emoji": "\ud83c\uddf9\ud83c\udded",
+    "emoji": "🇹🇭",
     "description": "Every flavor hitting at once is lowkey genius",
     "dishes": [
-      { "name": "Pad Thai", "emoji": "\ud83c\udf5c" },
-      { "name": "Green Curry", "emoji": "\ud83c\udf5b" },
-      { "name": "Mango Sticky Rice", "emoji": "\ud83e\udd6d" }
+      { "name": "Pad Thai", "emoji": "🍜" },
+      { "name": "Green Curry", "emoji": "🍛" },
+      { "name": "Mango Sticky Rice", "emoji": "🥭" }
+    ]
+  },
+  {
+    "id": "togo",
+    "name": "Togo",
+    "emoji": "🇹🇬",
+    "description": "Fufu and okra soup is the duo that never disappoints",
+    "dishes": [
+      { "name": "Fufu", "emoji": "🍚" },
+      { "name": "Dékounou", "emoji": "🍲" },
+      { "name": "Akoumé", "emoji": "🌽" }
+    ]
+  },
+  {
+    "id": "tonga",
+    "name": "Tonga",
+    "emoji": "🇹🇴",
+    "description": "Polynesian feasts that go absolutely off",
+    "dishes": [
+      { "name": "Lu Pulu", "emoji": "🍖" },
+      { "name": "Ota Ika", "emoji": "🐟" },
+      { "name": "Topai", "emoji": "🍞" }
+    ]
+  },
+  {
+    "id": "trinidad-and-tobago",
+    "name": "Trinidad and Tobago",
+    "emoji": "🇹🇹",
+    "description": "Doubles from a street vendor is a spiritual experience",
+    "dishes": [
+      { "name": "Doubles", "emoji": "🫓" },
+      { "name": "Roti", "emoji": "🫓" },
+      { "name": "Callaloo", "emoji": "🥬" }
+    ]
+  },
+  {
+    "id": "tunisia",
+    "name": "Tunisia",
+    "emoji": "🇹🇳",
+    "description": "Brik is the crispy fried egg pocket of your dreams",
+    "dishes": [
+      { "name": "Brik", "emoji": "🥟" },
+      { "name": "Couscous", "emoji": "🍚" },
+      { "name": "Lablabi", "emoji": "🍲" }
     ]
   },
   {
     "id": "turkey",
     "name": "Turkey",
-    "emoji": "\ud83c\uddf9\ud83c\uddf7",
+    "emoji": "🇹🇷",
     "description": "Kebab at 2am is a universal love language",
     "dishes": [
-      { "name": "Kebab", "emoji": "\ud83c\udf62" },
-      { "name": "Baklava", "emoji": "\ud83c\udf6f" },
-      { "name": "Lahmacun", "emoji": "\ud83e\udede" }
+      { "name": "Kebab", "emoji": "🍢" },
+      { "name": "Baklava", "emoji": "🍯" },
+      { "name": "Lahmacun", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "turkmenistan",
+    "name": "Turkmenistan",
+    "emoji": "🇹🇲",
+    "description": "Silk Road flavors that are lowkey slept on",
+    "dishes": [
+      { "name": "Plov", "emoji": "🍚" },
+      { "name": "Shurpa", "emoji": "🍲" },
+      { "name": "Gutap", "emoji": "🫓" }
+    ]
+  },
+  {
+    "id": "tuvalu",
+    "name": "Tuvalu",
+    "emoji": "🇹🇻",
+    "description": "The smallest country with the freshest seafood",
+    "dishes": [
+      { "name": "Pulaka", "emoji": "🍠" },
+      { "name": "Grilled Fish", "emoji": "🐟" },
+      { "name": "Coconut Cream", "emoji": "🥥" }
+    ]
+  },
+  {
+    "id": "uganda",
+    "name": "Uganda",
+    "emoji": "🇺🇬",
+    "description": "Rolex wrap from the street is an absolute banger",
+    "dishes": [
+      { "name": "Rolex", "emoji": "🫓" },
+      { "name": "Luwombo", "emoji": "🍲" },
+      { "name": "Matoke", "emoji": "🍌" }
+    ]
+  },
+  {
+    "id": "ukraine",
+    "name": "Ukraine",
+    "emoji": "🇺🇦",
+    "description": "Borscht and varenyky is the comfort food blueprint",
+    "dishes": [
+      { "name": "Borscht", "emoji": "🍲" },
+      { "name": "Varenyky", "emoji": "🥟" },
+      { "name": "Chicken Kyiv", "emoji": "🍗" }
+    ]
+  },
+  {
+    "id": "uae",
+    "name": "UAE",
+    "emoji": "🇦🇪",
+    "description": "Where tradition meets luxury dining at its finest",
+    "dishes": [
+      { "name": "Al Harees", "emoji": "🍚" },
+      { "name": "Al Machboos", "emoji": "🍚" },
+      { "name": "Luqaimat", "emoji": "🍩" }
+    ]
+  },
+  {
+    "id": "uk",
+    "name": "United Kingdom",
+    "emoji": "🇬🇧",
+    "description": "Fish and chips in the rain is genuinely iconic",
+    "dishes": [
+      { "name": "Fish and Chips", "emoji": "🐟" },
+      { "name": "Full English", "emoji": "🍳" },
+      { "name": "Sunday Roast", "emoji": "🍖" }
     ]
   },
   {
     "id": "usa",
     "name": "USA",
-    "emoji": "\ud83c\uddfa\ud83c\uddf8",
+    "emoji": "🇺🇸",
     "description": "Comfort food cranked to max settings",
     "dishes": [
-      { "name": "Burger", "emoji": "\ud83c\udf54" },
-      { "name": "BBQ Ribs", "emoji": "\ud83c\udf56" },
-      { "name": "Mac & Cheese", "emoji": "\ud83e\uddc0" }
+      { "name": "Burger", "emoji": "🍔" },
+      { "name": "BBQ Ribs", "emoji": "🍖" },
+      { "name": "Mac & Cheese", "emoji": "🧀" }
+    ]
+  },
+  {
+    "id": "uruguay",
+    "name": "Uruguay",
+    "emoji": "🇺🇾",
+    "description": "Chivito sandwich is the most slept on thing ever",
+    "dishes": [
+      { "name": "Chivito", "emoji": "🥪" },
+      { "name": "Asado", "emoji": "🥩" },
+      { "name": "Dulce de Leche", "emoji": "🍮" }
+    ]
+  },
+  {
+    "id": "uzbekistan",
+    "name": "Uzbekistan",
+    "emoji": "🇺🇿",
+    "description": "Plov is the rice pilaf that runs Central Asia",
+    "dishes": [
+      { "name": "Plov", "emoji": "🍚" },
+      { "name": "Manti", "emoji": "🥟" },
+      { "name": "Shashlik", "emoji": "🍢" }
+    ]
+  },
+  {
+    "id": "vanuatu",
+    "name": "Vanuatu",
+    "emoji": "🇻🇺",
+    "description": "Laplap is the baked root veggie cake that goes crazy",
+    "dishes": [
+      { "name": "Laplap", "emoji": "🍠" },
+      { "name": "Nalot", "emoji": "🍌" },
+      { "name": "Tuluk", "emoji": "🥟" }
+    ]
+  },
+  {
+    "id": "venezuela",
+    "name": "Venezuela",
+    "emoji": "🇻🇪",
+    "description": "Arepas stuffed with everything is the ultimate move",
+    "dishes": [
+      { "name": "Arepas", "emoji": "🫓" },
+      { "name": "Pabellón Criollo", "emoji": "🍛" },
+      { "name": "Cachapas", "emoji": "🌽" }
     ]
   },
   {
     "id": "vietnam",
     "name": "Vietnam",
-    "emoji": "\ud83c\uddfb\ud83c\uddf3",
+    "emoji": "🇻🇳",
     "description": "Pho on a cold day is actual healing",
     "dishes": [
-      { "name": "Pho", "emoji": "\ud83c\udf5c" },
-      { "name": "Banh Mi", "emoji": "\ud83e\udd6a" },
-      { "name": "Spring Rolls", "emoji": "\ud83c\udf64" }
+      { "name": "Pho", "emoji": "🍜" },
+      { "name": "Banh Mi", "emoji": "🥖" },
+      { "name": "Spring Rolls", "emoji": "🍤" }
+    ]
+  },
+  {
+    "id": "yemen",
+    "name": "Yemen",
+    "emoji": "🇾🇪",
+    "description": "Mandi and saltah are giving ancient flavor mastery",
+    "dishes": [
+      { "name": "Mandi", "emoji": "🍖" },
+      { "name": "Saltah", "emoji": "🍲" },
+      { "name": "Bint Al-Sahn", "emoji": "🍯" }
+    ]
+  },
+  {
+    "id": "zambia",
+    "name": "Zambia",
+    "emoji": "🇿🇲",
+    "description": "Nshima with relish is the daily ritual that slaps",
+    "dishes": [
+      { "name": "Nshima", "emoji": "🍚" },
+      { "name": "Ifisashi", "emoji": "🥜" },
+      { "name": "Chikanda", "emoji": "🍰" }
+    ]
+  },
+  {
+    "id": "zimbabwe",
+    "name": "Zimbabwe",
+    "emoji": "🇿🇼",
+    "description": "Sadza and stew is Southern African excellence",
+    "dishes": [
+      { "name": "Sadza", "emoji": "🍚" },
+      { "name": "Muriwo Unedovi", "emoji": "🥬" },
+      { "name": "Mapopo", "emoji": "🍈" }
     ]
   }
 ]
