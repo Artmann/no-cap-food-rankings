@@ -28,7 +28,7 @@ export default async function Home() {
           <div className="flex items-center gap-3">
             <a
               className="text-neutral-400 transition-colors hover:text-neutral-900"
-              href="https://github.com/Artmann/chow-where"
+              href="https://github.com/Artmann/no-cap-food-rankings"
               rel="noopener noreferrer"
               target="_blank"
             >

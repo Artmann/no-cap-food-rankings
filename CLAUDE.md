@@ -80,7 +80,7 @@ See `CODE_STYLE.md` for full details. Key rules:
 
 ## GitHub
 
-- Repo: https://github.com/Artmann/chow-where
+- Repo: https://github.com/Artmann/no-cap-food-rankings
 
 ## Git
 
