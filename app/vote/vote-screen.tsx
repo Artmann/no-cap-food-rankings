@@ -73,7 +73,7 @@ function VoteScreenInner() {
   return (
     <div className="relative flex h-dvh flex-col md:flex-row">
       <button
-        className={`flex flex-1 cursor-pointer flex-col items-center justify-center gap-3 bg-gradient-to-b from-amber-600/80 to-orange-700/80 px-6 text-white transition-opacity duration-300 md:bg-gradient-to-r ${
+        className={`flex flex-1 cursor-pointer flex-col items-center justify-center gap-3 bg-gradient-to-b from-amber-200 to-orange-300 px-6 text-neutral-900 transition-opacity duration-300 md:bg-gradient-to-r ${
           isTransitioning && selected !== top.id ? 'opacity-40' : 'opacity-100'
         }`}
         onClick={() => handleVote(top, bottom)}
@@ -81,13 +81,13 @@ function VoteScreenInner() {
       >
         <span className="text-5xl">{top.emoji}</span>
         <h2 className="text-2xl font-bold">{top.name}</h2>
-        <p className="max-w-xs text-center text-sm text-white/80">
+        <p className="max-w-xs text-center text-sm text-neutral-600">
           {top.description}
         </p>
         <div className="mt-2 flex flex-wrap justify-center gap-2">
           {top.dishes.map((dish) => (
             <span
-              className="rounded-full bg-white/15 px-3 py-1 text-sm backdrop-blur-sm"
+              className="rounded-full bg-neutral-900/10 px-3 py-1 text-sm backdrop-blur-sm"
               key={dish.name}
             >
               {dish.emoji} {dish.name}
@@ -103,7 +103,7 @@ function VoteScreenInner() {
       </div>
 
       <button
-        className="absolute bottom-4 right-4 z-10 cursor-pointer rounded-full bg-white/20 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/30 md:bottom-auto md:left-1/2 md:right-auto md:top-1/2 md:-translate-x-1/2 md:translate-y-24"
+        className="absolute bottom-4 right-4 z-10 cursor-pointer rounded-full bg-neutral-900/15 px-3 py-1 text-xs font-medium text-neutral-800 backdrop-blur-sm transition-colors hover:bg-neutral-900/25 md:bottom-auto md:left-1/2 md:right-auto md:top-1/2 md:-translate-x-1/2 md:translate-y-24"
         onClick={handleSkip}
         type="button"
       >
@@ -111,7 +111,7 @@ function VoteScreenInner() {
       </button>
 
       <button
-        className={`flex flex-1 cursor-pointer flex-col items-center justify-center gap-3 bg-gradient-to-b from-cyan-700/80 to-blue-800/80 px-6 text-white transition-opacity duration-300 md:bg-gradient-to-r ${
+        className={`flex flex-1 cursor-pointer flex-col items-center justify-center gap-3 bg-gradient-to-b from-cyan-200 to-blue-300 px-6 text-neutral-900 transition-opacity duration-300 md:bg-gradient-to-r ${
           isTransitioning && selected !== bottom.id
             ? 'opacity-40'
             : 'opacity-100'
@@ -121,13 +121,13 @@ function VoteScreenInner() {
       >
         <span className="text-5xl">{bottom.emoji}</span>
         <h2 className="text-2xl font-bold">{bottom.name}</h2>
-        <p className="max-w-xs text-center text-sm text-white/80">
+        <p className="max-w-xs text-center text-sm text-neutral-600">
           {bottom.description}
         </p>
         <div className="mt-2 flex flex-wrap justify-center gap-2">
           {bottom.dishes.map((dish) => (
             <span
-              className="rounded-full bg-white/15 px-3 py-1 text-sm backdrop-blur-sm"
+              className="rounded-full bg-neutral-900/10 px-3 py-1 text-sm backdrop-blur-sm"
               key={dish.name}
             >
               {dish.emoji} {dish.name}
