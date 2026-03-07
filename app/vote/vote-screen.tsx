@@ -79,9 +79,8 @@ function VoteScreenInner() {
         onClick={() => handleVote(top, bottom)}
         type="button"
       >
-        <span className="text-5xl">{top.emoji}</span>
         <h2 className="text-2xl font-bold">{top.name}</h2>
-        <p className="max-w-xs text-center text-sm text-neutral-600">
+        <p className="max-w-xs text-center text-base text-neutral-600">
           {top.description}
         </p>
         <div className="mt-2 flex flex-wrap justify-center gap-2">
@@ -119,9 +118,8 @@ function VoteScreenInner() {
         onClick={() => handleVote(bottom, top)}
         type="button"
       >
-        <span className="text-5xl">{bottom.emoji}</span>
         <h2 className="text-2xl font-bold">{bottom.name}</h2>
-        <p className="max-w-xs text-center text-sm text-neutral-600">
+        <p className="max-w-xs text-center text-base text-neutral-600">
           {bottom.description}
         </p>
         <div className="mt-2 flex flex-wrap justify-center gap-2">
