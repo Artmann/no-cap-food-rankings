@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx drizzle-kit:*)",
+      "Bash(npm run:*)",
+      "mcp__web-developer-mcp__browser-navigate",
+      "mcp__web-developer-mcp__browser-console",
+      "mcp__web-developer-mcp__extract-html",
+      "mcp__web-developer-mcp__click-element",
+      "Bash(node:*)",
+      "mcp__web-developer-mcp__inspect-elements"
+    ]
+  }
+}

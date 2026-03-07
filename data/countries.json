@@ -1,0 +1,233 @@
+[
+  {
+    "id": "argentina",
+    "name": "Argentina",
+    "emoji": "\ud83c\udde6\ud83c\uddf7",
+    "description": "Bold grilled meats and rich, comforting flavors",
+    "dishes": [
+      { "name": "Asado", "emoji": "\ud83e\udd69" },
+      { "name": "Empanadas", "emoji": "\ud83e\udd5f" },
+      { "name": "Milanesa", "emoji": "\ud83c\udf56" }
+    ]
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "emoji": "\ud83c\udde7\ud83c\uddf7",
+    "description": "Vibrant tropical flavors and hearty stews",
+    "dishes": [
+      { "name": "Feijoada", "emoji": "\ud83c\udf72" },
+      { "name": "Picanha", "emoji": "\ud83e\udd69" },
+      { "name": "A\u00e7a\u00ed Bowl", "emoji": "\ud83e\uded0" }
+    ]
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "emoji": "\ud83c\udde8\ud83c\uddf3",
+    "description": "Ancient culinary traditions with incredible regional diversity",
+    "dishes": [
+      { "name": "Kung Pao Chicken", "emoji": "\ud83c\udf57" },
+      { "name": "Dim Sum", "emoji": "\ud83e\udd5f" },
+      { "name": "Mapo Tofu", "emoji": "\ud83e\uddc6" }
+    ]
+  },
+  {
+    "id": "ethiopia",
+    "name": "Ethiopia",
+    "emoji": "\ud83c\uddea\ud83c\uddf9",
+    "description": "Spiced stews and communal dining on spongy injera",
+    "dishes": [
+      { "name": "Doro Wat", "emoji": "\ud83c\udf57" },
+      { "name": "Injera", "emoji": "\ud83e\udd5e" },
+      { "name": "Kitfo", "emoji": "\ud83e\udd69" }
+    ]
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "emoji": "\ud83c\uddeb\ud83c\uddf7",
+    "description": "Elegant technique and luxurious ingredients",
+    "dishes": [
+      { "name": "Croissant", "emoji": "\ud83e\udd50" },
+      { "name": "Coq au Vin", "emoji": "\ud83c\udf57" },
+      { "name": "Cr\u00e8me Br\u00fbl\u00e9e", "emoji": "\ud83c\udf6e" }
+    ]
+  },
+  {
+    "id": "greece",
+    "name": "Greece",
+    "emoji": "\ud83c\uddec\ud83c\uddf7",
+    "description": "Fresh Mediterranean flavors with olive oil and herbs",
+    "dishes": [
+      { "name": "Moussaka", "emoji": "\ud83c\udf46" },
+      { "name": "Souvlaki", "emoji": "\ud83c\udf62" },
+      { "name": "Spanakopita", "emoji": "\ud83e\udd67" }
+    ]
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "emoji": "\ud83c\uddee\ud83c\uddf3",
+    "description": "Complex spice blends and extraordinary vegetarian dishes",
+    "dishes": [
+      { "name": "Butter Chicken", "emoji": "\ud83c\udf5b" },
+      { "name": "Biryani", "emoji": "\ud83c\udf5a" },
+      { "name": "Samosa", "emoji": "\ud83e\udd5f" }
+    ]
+  },
+  {
+    "id": "italy",
+    "name": "Italy",
+    "emoji": "\ud83c\uddee\ud83c\uddf9",
+    "description": "Simple perfection with fresh, quality ingredients",
+    "dishes": [
+      { "name": "Pizza", "emoji": "\ud83c\udf55" },
+      { "name": "Pasta Carbonara", "emoji": "\ud83c\udf5d" },
+      { "name": "Gelato", "emoji": "\ud83c\udf68" }
+    ]
+  },
+  {
+    "id": "jamaica",
+    "name": "Jamaica",
+    "emoji": "\ud83c\uddef\ud83c\uddf2",
+    "description": "Fiery jerk spices and Caribbean island soul food",
+    "dishes": [
+      { "name": "Jerk Chicken", "emoji": "\ud83c\udf57" },
+      { "name": "Ackee & Saltfish", "emoji": "\ud83c\udf73" },
+      { "name": "Patties", "emoji": "\ud83e\udd5f" }
+    ]
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "emoji": "\ud83c\uddef\ud83c\uddf5",
+    "description": "Meticulous craft and umami-rich precision",
+    "dishes": [
+      { "name": "Sushi", "emoji": "\ud83c\udf63" },
+      { "name": "Ramen", "emoji": "\ud83c\udf5c" },
+      { "name": "Tempura", "emoji": "\ud83c\udf64" }
+    ]
+  },
+  {
+    "id": "lebanon",
+    "name": "Lebanon",
+    "emoji": "\ud83c\uddf1\ud83c\udde7",
+    "description": "Mezze spreads with vibrant herbs and smoky grills",
+    "dishes": [
+      { "name": "Hummus", "emoji": "\ud83e\udec8" },
+      { "name": "Shawarma", "emoji": "\ud83c\udf2f" },
+      { "name": "Tabbouleh", "emoji": "\ud83e\udd57" }
+    ]
+  },
+  {
+    "id": "mexico",
+    "name": "Mexico",
+    "emoji": "\ud83c\uddf2\ud83c\uddfd",
+    "description": "Bold chiles, ancient grains, and layers of flavor",
+    "dishes": [
+      { "name": "Tacos", "emoji": "\ud83c\udf2e" },
+      { "name": "Mole", "emoji": "\ud83c\udf72" },
+      { "name": "Tamales", "emoji": "\ud83e\udec4" }
+    ]
+  },
+  {
+    "id": "morocco",
+    "name": "Morocco",
+    "emoji": "\ud83c\uddf2\ud83c\udde6",
+    "description": "Aromatic tagines and sweet-savory spice combinations",
+    "dishes": [
+      { "name": "Tagine", "emoji": "\ud83c\udf72" },
+      { "name": "Couscous", "emoji": "\ud83c\udf5a" },
+      { "name": "Pastilla", "emoji": "\ud83e\udd67" }
+    ]
+  },
+  {
+    "id": "nigeria",
+    "name": "Nigeria",
+    "emoji": "\ud83c\uddf3\ud83c\uddec",
+    "description": "Hearty soups, bold peppers, and rich starchy staples",
+    "dishes": [
+      { "name": "Jollof Rice", "emoji": "\ud83c\udf5a" },
+      { "name": "Suya", "emoji": "\ud83c\udf62" },
+      { "name": "Puff Puff", "emoji": "\ud83e\uddc1" }
+    ]
+  },
+  {
+    "id": "peru",
+    "name": "Peru",
+    "emoji": "\ud83c\uddf5\ud83c\uddea",
+    "description": "Fusion of indigenous, Spanish, and Asian influences",
+    "dishes": [
+      { "name": "Ceviche", "emoji": "\ud83c\udf1f" },
+      { "name": "Lomo Saltado", "emoji": "\ud83e\udd69" },
+      { "name": "Causa", "emoji": "\ud83e\udd54" }
+    ]
+  },
+  {
+    "id": "south-korea",
+    "name": "South Korea",
+    "emoji": "\ud83c\uddf0\ud83c\uddf7",
+    "description": "Fermented flavors, sizzling BBQ, and spicy kick",
+    "dishes": [
+      { "name": "Kimchi", "emoji": "\ud83e\udd6c" },
+      { "name": "Bibimbap", "emoji": "\ud83c\udf5c" },
+      { "name": "Korean BBQ", "emoji": "\ud83c\udf56" }
+    ]
+  },
+  {
+    "id": "spain",
+    "name": "Spain",
+    "emoji": "\ud83c\uddea\ud83c\uddf8",
+    "description": "Tapas culture with olive oil, saffron, and seafood",
+    "dishes": [
+      { "name": "Paella", "emoji": "\ud83e\udd58" },
+      { "name": "Tapas", "emoji": "\ud83e\uddc6" },
+      { "name": "Churros", "emoji": "\ud83e\udec3" }
+    ]
+  },
+  {
+    "id": "thailand",
+    "name": "Thailand",
+    "emoji": "\ud83c\uddf9\ud83c\udded",
+    "description": "Perfect balance of sweet, sour, salty, and spicy",
+    "dishes": [
+      { "name": "Pad Thai", "emoji": "\ud83c\udf5c" },
+      { "name": "Green Curry", "emoji": "\ud83c\udf5b" },
+      { "name": "Mango Sticky Rice", "emoji": "\ud83e\udd6d" }
+    ]
+  },
+  {
+    "id": "turkey",
+    "name": "Turkey",
+    "emoji": "\ud83c\uddf9\ud83c\uddf7",
+    "description": "Crossroads cuisine blending East and West",
+    "dishes": [
+      { "name": "Kebab", "emoji": "\ud83c\udf62" },
+      { "name": "Baklava", "emoji": "\ud83c\udf6f" },
+      { "name": "Lahmacun", "emoji": "\ud83e\udede" }
+    ]
+  },
+  {
+    "id": "usa",
+    "name": "USA",
+    "emoji": "\ud83c\uddfa\ud83c\uddf8",
+    "description": "Melting pot of regional classics and comfort food",
+    "dishes": [
+      { "name": "Burger", "emoji": "\ud83c\udf54" },
+      { "name": "BBQ Ribs", "emoji": "\ud83c\udf56" },
+      { "name": "Mac & Cheese", "emoji": "\ud83e\uddc0" }
+    ]
+  },
+  {
+    "id": "vietnam",
+    "name": "Vietnam",
+    "emoji": "\ud83c\uddfb\ud83c\uddf3",
+    "description": "Fresh herbs, light broths, and delicate balance",
+    "dishes": [
+      { "name": "Pho", "emoji": "\ud83c\udf5c" },
+      { "name": "Banh Mi", "emoji": "\ud83e\udd6a" },
+      { "name": "Spring Rolls", "emoji": "\ud83c\udf64" }
+    ]
+  }
+]
