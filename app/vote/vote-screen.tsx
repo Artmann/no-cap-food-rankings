@@ -10,6 +10,12 @@ import { getVisitorId } from '@/lib/visitor'
 
 import { saveVote } from './actions'
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void
+  }
+}
+
 const emptySubscribe = () => () => {}
 
 export function VoteScreen() {
@@ -63,6 +69,11 @@ function VoteScreenInner() {
 
       if (result.error) {
         toast.error(result.error)
+      } else {
+        window.gtag?.('event', 'vote', {
+          non_preferred_country: nonPreferred.id,
+          preferred_country: preferred.id
+        })
       }
 
       setTimeout(() => {

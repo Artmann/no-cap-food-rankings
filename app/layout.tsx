@@ -73,12 +73,12 @@ export default function RootLayout({
         >
           {`
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('consent', 'default', {
+            window.gtag = function(){dataLayer.push(arguments);};
+            window.gtag('consent', 'default', {
               analytics_storage: 'denied'
             });
-            gtag('js', new Date());
-            gtag('config', 'G-L9L0DQ9RS2');
+            window.gtag('js', new Date());
+            window.gtag('config', 'G-L9L0DQ9RS2');
           `}
         </Script>
       </body>
