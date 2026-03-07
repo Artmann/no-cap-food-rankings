@@ -84,4 +84,4 @@ See `CODE_STYLE.md` for full details. Key rules:
 
 ## Git
 
-- Don't include Claude as the author in commit messages.
+- Don't include Claude as the author in commit messages. No Co-Authored-By lines.

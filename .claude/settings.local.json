@@ -14,7 +14,8 @@
       "Bash(gh repo:*)",
       "Bash(npx vitest:*)",
       "Bash(npx tsc:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(GIT_SEQUENCE_EDITOR=\"sed -i 's/^pick /reword /g'\" git rebase:*)"
     ]
   }
 }
