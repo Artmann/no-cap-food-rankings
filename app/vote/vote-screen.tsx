@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useCallback, useState, useSyncExternalStore } from 'react'
+import { toast } from 'sonner'
 
 import type { Country } from '@/lib/countries'
 import { getRandomPair } from '@/lib/countries'
@@ -54,11 +55,15 @@ function VoteScreenInner() {
       setSelected(preferred.id)
       setIsTransitioning(true)
 
-      await saveVote({
+      const result = await saveVote({
         nonPreferredCountryId: nonPreferred.id,
         preferredCountryId: preferred.id,
         visitorId
       })
+
+      if (result.error) {
+        toast.error(result.error)
+      }
 
       setTimeout(() => {
         setPair(getRandomPair())

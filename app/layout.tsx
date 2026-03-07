@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { JetBrains_Mono, Merriweather, Outfit } from 'next/font/google'
 import Script from 'next/script'
+import { Toaster } from '@/components/ui/sonner'
 import CookieBanner from './cookie-banner'
 import './globals.css'
 
@@ -59,6 +60,7 @@ export default function RootLayout({
         className={`${fontSans.variable} ${fontSerif.variable} ${fontMono.variable} antialiased`}
       >
         {children}
+        <Toaster />
         <CookieBanner />
 
         <Script
