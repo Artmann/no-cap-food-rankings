@@ -3,7 +3,7 @@
     "id": "argentina",
     "name": "Argentina",
     "emoji": "\ud83c\udde6\ud83c\uddf7",
-    "description": "Bold grilled meats and rich, comforting flavors",
+    "description": "Grill game absolutely unhinged",
     "dishes": [
       { "name": "Asado", "emoji": "\ud83e\udd69" },
       { "name": "Empanadas", "emoji": "\ud83e\udd5f" },
@@ -14,7 +14,7 @@
     "id": "brazil",
     "name": "Brazil",
     "emoji": "\ud83c\udde7\ud83c\uddf7",
-    "description": "Vibrant tropical flavors and hearty stews",
+    "description": "Tropical vibes that hit different",
     "dishes": [
       { "name": "Feijoada", "emoji": "\ud83c\udf72" },
       { "name": "Picanha", "emoji": "\ud83e\udd69" },
@@ -25,7 +25,7 @@
     "id": "china",
     "name": "China",
     "emoji": "\ud83c\udde8\ud83c\uddf3",
-    "description": "Ancient culinary traditions with incredible regional diversity",
+    "description": "Literally thousands of years of no miss cooking",
     "dishes": [
       { "name": "Kung Pao Chicken", "emoji": "\ud83c\udf57" },
       { "name": "Dim Sum", "emoji": "\ud83e\udd5f" },
@@ -36,7 +36,7 @@
     "id": "ethiopia",
     "name": "Ethiopia",
     "emoji": "\ud83c\uddea\ud83c\uddf9",
-    "description": "Spiced stews and communal dining on spongy injera",
+    "description": "Eating with your hands is the main character energy",
     "dishes": [
       { "name": "Doro Wat", "emoji": "\ud83c\udf57" },
       { "name": "Injera", "emoji": "\ud83e\udd5e" },
@@ -47,7 +47,7 @@
     "id": "france",
     "name": "France",
     "emoji": "\ud83c\uddeb\ud83c\uddf7",
-    "description": "Elegant technique and luxurious ingredients",
+    "description": "Bougie food that's lowkey worth the hype",
     "dishes": [
       { "name": "Croissant", "emoji": "\ud83e\udd50" },
       { "name": "Coq au Vin", "emoji": "\ud83c\udf57" },
@@ -58,7 +58,7 @@
     "id": "greece",
     "name": "Greece",
     "emoji": "\ud83c\uddec\ud83c\uddf7",
-    "description": "Fresh Mediterranean flavors with olive oil and herbs",
+    "description": "Mediterranean clean eating before it was cool",
     "dishes": [
       { "name": "Moussaka", "emoji": "\ud83c\udf46" },
       { "name": "Souvlaki", "emoji": "\ud83c\udf62" },
@@ -69,7 +69,7 @@
     "id": "india",
     "name": "India",
     "emoji": "\ud83c\uddee\ud83c\uddf3",
-    "description": "Complex spice blends and extraordinary vegetarian dishes",
+    "description": "Spice levels that are genuinely unserious",
     "dishes": [
       { "name": "Butter Chicken", "emoji": "\ud83c\udf5b" },
       { "name": "Biryani", "emoji": "\ud83c\udf5a" },
@@ -80,7 +80,7 @@
     "id": "italy",
     "name": "Italy",
     "emoji": "\ud83c\uddee\ud83c\uddf9",
-    "description": "Simple perfection with fresh, quality ingredients",
+    "description": "Less is more and it absolutely slaps",
     "dishes": [
       { "name": "Pizza", "emoji": "\ud83c\udf55" },
       { "name": "Pasta Carbonara", "emoji": "\ud83c\udf5d" },
@@ -91,7 +91,7 @@
     "id": "jamaica",
     "name": "Jamaica",
     "emoji": "\ud83c\uddef\ud83c\uddf2",
-    "description": "Fiery jerk spices and Caribbean island soul food",
+    "description": "Jerk spice is literally a whole personality",
     "dishes": [
       { "name": "Jerk Chicken", "emoji": "\ud83c\udf57" },
       { "name": "Ackee & Saltfish", "emoji": "\ud83c\udf73" },
@@ -102,7 +102,7 @@
     "id": "japan",
     "name": "Japan",
     "emoji": "\ud83c\uddef\ud83c\uddf5",
-    "description": "Meticulous craft and umami-rich precision",
+    "description": "Peak umami. No notes.",
     "dishes": [
       { "name": "Sushi", "emoji": "\ud83c\udf63" },
       { "name": "Ramen", "emoji": "\ud83c\udf5c" },
@@ -113,7 +113,7 @@
     "id": "lebanon",
     "name": "Lebanon",
     "emoji": "\ud83c\uddf1\ud83c\udde7",
-    "description": "Mezze spreads with vibrant herbs and smoky grills",
+    "description": "The shawarma alone is a whole vibe",
     "dishes": [
       { "name": "Hummus", "emoji": "\ud83e\udec8" },
       { "name": "Shawarma", "emoji": "\ud83c\udf2f" },
@@ -124,7 +124,7 @@
     "id": "mexico",
     "name": "Mexico",
     "emoji": "\ud83c\uddf2\ud83c\uddfd",
-    "description": "Bold chiles, ancient grains, and layers of flavor",
+    "description": "Taco Tuesday is a lifestyle not a day",
     "dishes": [
       { "name": "Tacos", "emoji": "\ud83c\udf2e" },
       { "name": "Mole", "emoji": "\ud83c\udf72" },
@@ -135,7 +135,7 @@
     "id": "morocco",
     "name": "Morocco",
     "emoji": "\ud83c\uddf2\ud83c\udde6",
-    "description": "Aromatic tagines and sweet-savory spice combinations",
+    "description": "Tagine is giving slow-cooked perfection",
     "dishes": [
       { "name": "Tagine", "emoji": "\ud83c\udf72" },
       { "name": "Couscous", "emoji": "\ud83c\udf5a" },
@@ -146,7 +146,7 @@
     "id": "nigeria",
     "name": "Nigeria",
     "emoji": "\ud83c\uddf3\ud83c\uddec",
-    "description": "Hearty soups, bold peppers, and rich starchy staples",
+    "description": "Jollof rice discourse is never ending for a reason",
     "dishes": [
       { "name": "Jollof Rice", "emoji": "\ud83c\udf5a" },
       { "name": "Suya", "emoji": "\ud83c\udf62" },
@@ -157,7 +157,7 @@
     "id": "peru",
     "name": "Peru",
     "emoji": "\ud83c\uddf5\ud83c\uddea",
-    "description": "Fusion of indigenous, Spanish, and Asian influences",
+    "description": "The crossover episode nobody expected but everyone needed",
     "dishes": [
       { "name": "Ceviche", "emoji": "\ud83c\udf1f" },
       { "name": "Lomo Saltado", "emoji": "\ud83e\udd69" },
@@ -168,7 +168,7 @@
     "id": "south-korea",
     "name": "South Korea",
     "emoji": "\ud83c\uddf0\ud83c\uddf7",
-    "description": "Fermented flavors, sizzling BBQ, and spicy kick",
+    "description": "K-food era is not slowing down",
     "dishes": [
       { "name": "Kimchi", "emoji": "\ud83e\udd6c" },
       { "name": "Bibimbap", "emoji": "\ud83c\udf5c" },
@@ -179,7 +179,7 @@
     "id": "spain",
     "name": "Spain",
     "emoji": "\ud83c\uddea\ud83c\uddf8",
-    "description": "Tapas culture with olive oil, saffron, and seafood",
+    "description": "Small plates but make it a whole personality",
     "dishes": [
       { "name": "Paella", "emoji": "\ud83e\udd58" },
       { "name": "Tapas", "emoji": "\ud83e\uddc6" },
@@ -190,7 +190,7 @@
     "id": "thailand",
     "name": "Thailand",
     "emoji": "\ud83c\uddf9\ud83c\udded",
-    "description": "Perfect balance of sweet, sour, salty, and spicy",
+    "description": "Every flavor hitting at once is lowkey genius",
     "dishes": [
       { "name": "Pad Thai", "emoji": "\ud83c\udf5c" },
       { "name": "Green Curry", "emoji": "\ud83c\udf5b" },
@@ -201,7 +201,7 @@
     "id": "turkey",
     "name": "Turkey",
     "emoji": "\ud83c\uddf9\ud83c\uddf7",
-    "description": "Crossroads cuisine blending East and West",
+    "description": "Kebab at 2am is a universal love language",
     "dishes": [
       { "name": "Kebab", "emoji": "\ud83c\udf62" },
       { "name": "Baklava", "emoji": "\ud83c\udf6f" },
@@ -212,7 +212,7 @@
     "id": "usa",
     "name": "USA",
     "emoji": "\ud83c\uddfa\ud83c\uddf8",
-    "description": "Melting pot of regional classics and comfort food",
+    "description": "Comfort food cranked to max settings",
     "dishes": [
       { "name": "Burger", "emoji": "\ud83c\udf54" },
       { "name": "BBQ Ribs", "emoji": "\ud83c\udf56" },
@@ -223,7 +223,7 @@
     "id": "vietnam",
     "name": "Vietnam",
     "emoji": "\ud83c\uddfb\ud83c\uddf3",
-    "description": "Fresh herbs, light broths, and delicate balance",
+    "description": "Pho on a cold day is actual healing",
     "dishes": [
       { "name": "Pho", "emoji": "\ud83c\udf5c" },
       { "name": "Banh Mi", "emoji": "\ud83e\udd6a" },
