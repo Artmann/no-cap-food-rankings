@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { JetBrains_Mono, Merriweather, Outfit } from 'next/font/google'
+import Script from 'next/script'
 import CookieBanner from './cookie-banner'
 import './globals.css'
 
@@ -59,6 +60,22 @@ export default function RootLayout({
       >
         {children}
         <CookieBanner />
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-L9L0DQ9RS2"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {
+              analytics_storage: 'denied'
+            });
+            gtag('js', new Date());
+            gtag('config', 'G-L9L0DQ9RS2');
+          `}
+        </Script>
       </body>
     </html>
   )

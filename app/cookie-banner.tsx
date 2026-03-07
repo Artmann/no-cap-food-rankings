@@ -3,6 +3,23 @@
 import { useEffect } from 'react'
 import 'vanilla-cookieconsent/dist/cookieconsent.css'
 
+declare global {
+  interface Window {
+    dataLayer: unknown[]
+  }
+}
+
+function gtag(...args: unknown[]) {
+  window.dataLayer = window.dataLayer || []
+  window.dataLayer.push(args)
+}
+
+function updateGtagConsent(granted: boolean) {
+  gtag('consent', 'update', {
+    analytics_storage: granted ? 'granted' : 'denied'
+  })
+}
+
 export default function CookieBanner() {
   useEffect(() => {
     async function init() {
@@ -18,6 +35,18 @@ export default function CookieBanner() {
           necessary: {
             enabled: true,
             readOnly: true
+          }
+        },
+        onConsent: () => {
+          const accepted = cookieConsent.acceptedCategory('analytics')
+
+          updateGtagConsent(accepted)
+        },
+        onChange: ({ changedCategories }) => {
+          if (changedCategories.includes('analytics')) {
+            const accepted = cookieConsent.acceptedCategory('analytics')
+
+            updateGtagConsent(accepted)
           }
         },
         guiOptions: {
