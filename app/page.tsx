@@ -44,6 +44,17 @@ export default async function Home() {
         </div>
 
         <RankingsTable initialRankings={rankings} />
+
+        <footer className="mt-16 pb-8 text-center text-sm text-neutral-400">
+          <a
+            className="transition-colors hover:text-neutral-600"
+            href="https://www.artmann.co/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Made with ❤️ in Barcelona
+          </a>
+        </footer>
       </div>
     </div>
   )
