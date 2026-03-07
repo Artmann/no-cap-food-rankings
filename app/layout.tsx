@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { JetBrains_Mono, Merriweather, Outfit } from 'next/font/google'
+import CookieBanner from './cookie-banner'
 import './globals.css'
 
 const fontSans = Outfit({
@@ -17,7 +18,7 @@ const fontMono = JetBrains_Mono({
   variable: '--font-mono'
 })
 
-const url = 'https://chow-where.vercel.app'
+const url = 'https://no-cap-food-rankings.vercel.app'
 
 export const metadata: Metadata = {
   description: 'vote on which country has the best food.',
@@ -57,6 +58,7 @@ export default function RootLayout({
         className={`${fontSans.variable} ${fontSerif.variable} ${fontMono.variable} antialiased`}
       >
         {children}
+        <CookieBanner />
       </body>
     </html>
   )
