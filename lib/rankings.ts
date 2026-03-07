@@ -76,6 +76,7 @@ export function buildRankings(
 }
 
 async function queryCountsByCountry(
+  tx: Pick<typeof db, 'select'>,
   column: 'preferredCountryId' | 'nonPreferredCountryId',
   since?: Date
 ): Promise<Map<string, number>> {
@@ -86,7 +87,7 @@ async function queryCountsByCountry(
 
   const conditions = since ? gt(votes.createdAt, since) : undefined
 
-  const rows = await db
+  const rows = await tx
     .select({
       countryId: field,
       total: count()
@@ -102,12 +103,14 @@ export async function getRankings(): Promise<CountryRanking[]> {
   const since = new Date(Date.now() - 24 * 60 * 60 * 1000)
 
   const [winsMap, lossesMap, recentWinsMap, recentLossesMap] =
-    await Promise.all([
-      queryCountsByCountry('preferredCountryId'),
-      queryCountsByCountry('nonPreferredCountryId'),
-      queryCountsByCountry('preferredCountryId', since),
-      queryCountsByCountry('nonPreferredCountryId', since)
-    ])
+    await db.transaction(async (tx) =>
+      Promise.all([
+        queryCountsByCountry(tx, 'preferredCountryId'),
+        queryCountsByCountry(tx, 'nonPreferredCountryId'),
+        queryCountsByCountry(tx, 'preferredCountryId', since),
+        queryCountsByCountry(tx, 'nonPreferredCountryId', since)
+      ])
+    )
 
   return buildRankings(winsMap, lossesMap, recentWinsMap, recentLossesMap)
 }
