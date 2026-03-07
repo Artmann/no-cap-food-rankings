@@ -25,27 +25,17 @@ export default async function Home() {
             </h1>
             <p className="mt-1 text-neutral-500">the people have spoken</p>
           </div>
-          <div className="flex items-center gap-3">
-            <a
-              className="text-neutral-400 transition-colors hover:text-neutral-900"
-              href="https://github.com/Artmann/no-cap-food-rankings"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <Github className="h-5 w-5" />
-            </a>
-            <Link
-              className="rounded-full bg-neutral-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-neutral-700"
-              href="/vote"
-            >
-              Start Voting
-            </Link>
-          </div>
+          <Link
+            className="rounded-full bg-neutral-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-neutral-700"
+            href="/vote"
+          >
+            Start Voting
+          </Link>
         </div>
 
         <RankingsTable initialRankings={rankings} />
 
-        <footer className="mt-16 pb-8 text-center text-sm text-neutral-400">
+        <footer className="mt-16 flex items-center justify-center gap-3 pb-8 text-sm text-neutral-400">
           <a
             className="transition-colors hover:text-neutral-600"
             href="https://www.artmann.co/"
@@ -53,6 +43,15 @@ export default async function Home() {
             target="_blank"
           >
             Made with ❤️ in Barcelona
+          </a>
+          <span>·</span>
+          <a
+            className="transition-colors hover:text-neutral-600"
+            href="https://github.com/Artmann/no-cap-food-rankings"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <Github className="h-4 w-4" />
           </a>
         </footer>
       </div>
