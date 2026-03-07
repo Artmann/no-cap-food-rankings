@@ -93,7 +93,7 @@ describe('VoteScreen', () => {
   })
 
   it('calls saveVote with correct data when voting for the first country', async () => {
-    mockSaveVote.mockResolvedValue(undefined)
+    mockSaveVote.mockResolvedValue({})
     const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime })
     render(<VoteScreen />)
 
@@ -107,7 +107,7 @@ describe('VoteScreen', () => {
   })
 
   it('calls saveVote with correct data when voting for the second country', async () => {
-    mockSaveVote.mockResolvedValue(undefined)
+    mockSaveVote.mockResolvedValue({})
     const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime })
     render(<VoteScreen />)
 
@@ -121,7 +121,7 @@ describe('VoteScreen', () => {
   })
 
   it('shows a new pair after voting', async () => {
-    mockSaveVote.mockResolvedValue(undefined)
+    mockSaveVote.mockResolvedValue({})
     const user = userEvent.setup({ advanceTimers: vi.advanceTimersByTime })
     render(<VoteScreen />)
 
