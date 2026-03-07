@@ -20,29 +20,29 @@ const fontMono = JetBrains_Mono({
 const url = 'https://chow-where.vercel.app'
 
 export const metadata: Metadata = {
-  description: 'Vote on which country has the best food.',
+  description: 'vote on which country has the best food.',
   metadataBase: new URL(url),
   openGraph: {
-    description: 'Vote on which country has the best food.',
+    description: 'vote on which country has the best food.',
     images: [
       {
-        alt: 'Best Chow? Vote Now!',
+        alt: 'no cap food rankings',
         height: 630,
         url: '/og.png',
         width: 1200
       }
     ],
-    siteName: 'Best Chow Where?',
-    title: 'Best Chow Where?',
+    siteName: 'no cap food rankings',
+    title: 'no cap food rankings',
     type: 'website',
     url
   },
-  title: 'Best Chow Where?',
+  title: 'no cap food rankings',
   twitter: {
     card: 'summary_large_image',
-    description: 'Vote on which country has the best food.',
+    description: 'vote on which country has the best food.',
     images: ['/og.png'],
-    title: 'Best Chow Where?'
+    title: 'no cap food rankings'
   }
 }
 

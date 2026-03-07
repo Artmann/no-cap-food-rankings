@@ -1,4 +1,4 @@
-# Chow Where
+# no cap food rankings
 
 A food ranking game where users vote on which country's food they prefer.
 
