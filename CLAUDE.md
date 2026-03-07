@@ -27,7 +27,8 @@ A food ranking game where users vote on which country's food they prefer.
 ## Commands
 
 - `npm run dev` - Start dev server
-- `npm run build` - Production build (note: known Turbopack prerender bug, not our code)
+- `npm run build` - Production build (note: known Turbopack prerender bug, not
+  our code)
 - `npm run lint` - Run ESLint
 - `npm run format` - Run Prettier
 - `npm run db:generate` - Generate Drizzle migration files

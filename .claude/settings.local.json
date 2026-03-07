@@ -11,7 +11,9 @@
       "Bash(node:*)",
       "mcp__web-developer-mcp__inspect-elements",
       "Bash(npx shadcn@latest:*)",
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npx tsc:*)"
     ]
   }
 }
