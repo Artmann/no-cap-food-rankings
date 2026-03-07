@@ -10,7 +10,8 @@
       "mcp__web-developer-mcp__click-element",
       "Bash(node:*)",
       "mcp__web-developer-mcp__inspect-elements",
-      "Bash(npx shadcn@latest:*)"
+      "Bash(npx shadcn@latest:*)",
+      "Bash(gh repo:*)"
     ]
   }
 }
