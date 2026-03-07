@@ -34,6 +34,18 @@ function VoteScreenInner() {
   const [isTransitioning, setIsTransitioning] = useState(false)
   const [selected, setSelected] = useState<string | null>(null)
 
+  const handleSkip = useCallback(() => {
+    if (isTransitioning) return
+
+    setIsTransitioning(true)
+
+    setTimeout(() => {
+      setPair(getRandomPair())
+      setSelected(null)
+      setIsTransitioning(false)
+    }, 300)
+  }, [isTransitioning])
+
   const handleVote = useCallback(
     async (preferred: Country, nonPreferred: Country) => {
       if (isTransitioning) return
@@ -89,6 +101,14 @@ function VoteScreenInner() {
           VS
         </div>
       </div>
+
+      <button
+        className="absolute bottom-4 right-4 z-10 cursor-pointer rounded-full bg-white/20 px-3 py-1 text-xs font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/30 md:bottom-auto md:left-1/2 md:right-auto md:top-1/2 md:-translate-x-1/2 md:translate-y-24"
+        onClick={handleSkip}
+        type="button"
+      >
+        Skip
+      </button>
 
       <button
         className={`flex flex-1 cursor-pointer flex-col items-center justify-center gap-3 bg-gradient-to-b from-cyan-700/80 to-blue-800/80 px-6 text-white transition-opacity duration-300 md:bg-gradient-to-r ${
