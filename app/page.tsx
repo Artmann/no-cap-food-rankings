@@ -1,3 +1,4 @@
+import { Github } from 'lucide-react'
 import Link from 'next/link'
 
 import { getRankings } from '@/lib/rankings'
@@ -24,12 +25,22 @@ export default async function Home() {
             </h1>
             <p className="mt-1 text-neutral-500">the people have spoken</p>
           </div>
-          <Link
-            className="rounded-full bg-neutral-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-neutral-700"
-            href="/vote"
-          >
-            Start Voting
-          </Link>
+          <div className="flex items-center gap-3">
+            <a
+              className="text-neutral-400 transition-colors hover:text-neutral-900"
+              href="https://github.com/Artmann/chow-where"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Github className="h-5 w-5" />
+            </a>
+            <Link
+              className="rounded-full bg-neutral-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-neutral-700"
+              href="/vote"
+            >
+              Start Voting
+            </Link>
+          </div>
         </div>
 
         <RankingsTable initialRankings={rankings} />
