@@ -12,9 +12,9 @@ const globalForDrizzle = globalThis as unknown as {
   db: ReturnType<typeof drizzle<typeof schema>> | undefined
 }
 
-export const db =
+export const database =
   globalForDrizzle.db ?? drizzle<typeof schema>(databaseUrl, { schema })
 
 if (process.env.NODE_ENV !== 'production') {
-  globalForDrizzle.db = db
+  globalForDrizzle.db = database
 }

@@ -1,6 +1,6 @@
 import { count, gt } from 'drizzle-orm'
 
-import { db } from '@/db'
+import { database } from '@/db'
 import { votes } from '@/db/schema'
 import { countries } from '@/lib/countries'
 
@@ -76,7 +76,7 @@ export function buildRankings(
 }
 
 async function queryCountsByCountry(
-  tx: Pick<typeof db, 'select'>,
+  tx: Pick<typeof database, 'select'>,
   column: 'preferredCountryId' | 'nonPreferredCountryId',
   since?: Date
 ): Promise<Map<string, number>> {
@@ -103,7 +103,7 @@ export async function getRankings(): Promise<CountryRanking[]> {
   const since = new Date(Date.now() - 24 * 60 * 60 * 1000)
 
   const [winsMap, lossesMap, recentWinsMap, recentLossesMap] =
-    await db.transaction(async (tx) =>
+    await database.transaction(async (tx) =>
       Promise.all([
         queryCountsByCountry(tx, 'preferredCountryId'),
         queryCountsByCountry(tx, 'nonPreferredCountryId'),
