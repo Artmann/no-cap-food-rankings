@@ -2,7 +2,7 @@
 
 import { headers } from 'next/headers'
 
-import { db } from '@/db'
+import { database } from '@/db'
 import { votes } from '@/db/schema'
 
 const rateLimitMap = new Map<string, number[]>()
@@ -38,7 +38,7 @@ export async function saveVote(input: {
   }
 
   try {
-    await db.insert(votes).values({
+    await database.insert(votes).values({
       nonPreferredCountryId: input.nonPreferredCountryId,
       preferredCountryId: input.preferredCountryId,
       visitorId: input.visitorId

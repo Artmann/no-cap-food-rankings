@@ -20,7 +20,8 @@
       "Bash(DATABASE_URL=postgresql://localhost:5432/fake bun run:*)",
       "Bash(npx:*)",
       "Bash(bun add:*)",
-      "mcp__web-developer-mcp__network-requests"
+      "mcp__web-developer-mcp__network-requests",
+      "Bash(ls:*)"
     ]
   }
 }

@@ -8,6 +8,13 @@
       "when": 1772915410675,
       "tag": "0000_volatile_alex_power",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1772973265343,
+      "tag": "0001_neat_vindicator",
+      "breakpoints": true
     }
   ]
 }
