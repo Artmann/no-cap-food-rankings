@@ -16,8 +16,10 @@ export async function POST(request: Request) {
 
   const ratings = new Map<string, number>()
   const eloChanges = new Map<string, number[]>()
+  let voteCount = 0
 
   for await (const row of stepThroughVotes()) {
+    voteCount++
     const winnerId = row.preferredCountryId
     const looserId = row.nonPreferredCountryId
 
@@ -91,7 +93,8 @@ export async function POST(request: Request) {
   return NextResponse.json({
     eloChanges: Object.fromEntries(eloChanges),
     ratings: Object.fromEntries(ratings),
-    success: true
+    success: true,
+    voteCount
   })
 }
 
