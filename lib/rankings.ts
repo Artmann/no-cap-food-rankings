@@ -1,116 +1,59 @@
-import { count, gt } from 'drizzle-orm'
+import { desc } from 'drizzle-orm'
 
 import { database } from '@/db'
-import { votes } from '@/db/schema'
+import { contryRankings } from '@/db/schema'
 import { countries } from '@/lib/countries'
-
-const bayesianPrior = 2
 
 export interface CountryRanking {
   countryId: string
   dishes: { emoji: string; name: string }[]
+  eloRating: number
   emoji: string
-  losses: number
   name: string
   rank: number
-  score: number
-  totalMatchups: number
   trend: 'down' | 'neutral' | 'up'
-  wins: number
 }
 
-export function computeScore(wins: number, total: number): number {
-  return (wins + bayesianPrior) / (total + bayesianPrior * 2)
-}
-
-export function computeTrend(
-  allTimeScore: number,
-  recentScore: number
+export function computeTrendFromEloChange(
+  eloChange: number
 ): 'down' | 'neutral' | 'up' {
-  const difference = recentScore - allTimeScore
-
-  if (difference > 0.05) return 'up'
-  if (difference < -0.05) return 'down'
+  if (eloChange > 50) return 'up'
+  if (eloChange < -50) return 'down'
 
   return 'neutral'
 }
 
-export function buildRankings(
-  winsMap: Map<string, number>,
-  lossesMap: Map<string, number>,
-  recentWinsMap: Map<string, number>,
-  recentLossesMap: Map<string, number>
-): CountryRanking[] {
-  const rankings = countries.map((country) => {
-    const wins = winsMap.get(country.id) ?? 0
-    const losses = lossesMap.get(country.id) ?? 0
-    const total = wins + losses
-    const allTimeScore = computeScore(wins, total)
+export async function getRankings(): Promise<CountryRanking[]> {
+  const rows = await database
+    .select({
+      countryId: contryRankings.countryId,
+      eloChange: contryRankings.eloChange,
+      eloRating: contryRankings.eloRating
+    })
+    .from(contryRankings)
+    .orderBy(desc(contryRankings.eloRating))
 
-    const recentWins = recentWinsMap.get(country.id) ?? 0
-    const recentLosses = recentLossesMap.get(country.id) ?? 0
-    const recentTotal = recentWins + recentLosses
-    const recentScore = computeScore(recentWins, recentTotal)
+  const eloMap = new Map(rows.map((row) => [row.countryId, row]))
+
+  const rankings = countries.map((country) => {
+    const row = eloMap.get(country.id)
 
     return {
       countryId: country.id,
       dishes: country.dishes,
+      eloRating: row?.eloRating ?? 1500,
       emoji: country.emoji,
-      losses,
       name: country.name,
       rank: 0,
-      score: allTimeScore,
-      totalMatchups: total,
-      trend: computeTrend(allTimeScore, recentScore),
-      wins
+      trend: computeTrendFromEloChange(row?.eloChange ?? 0)
     }
   })
 
-  rankings.sort((a, b) => b.score - a.score)
+  rankings.sort((a, b) => b.eloRating - a.eloRating)
 
   for (let i = 0; i < rankings.length; i++) {
     rankings[i].rank = i + 1
   }
 
   return rankings
-}
-
-async function queryCountsByCountry(
-  tx: Pick<typeof database, 'select'>,
-  column: 'preferredCountryId' | 'nonPreferredCountryId',
-  since?: Date
-): Promise<Map<string, number>> {
-  const field =
-    column === 'preferredCountryId'
-      ? votes.preferredCountryId
-      : votes.nonPreferredCountryId
-
-  const conditions = since ? gt(votes.createdAt, since) : undefined
-
-  const rows = await tx
-    .select({
-      countryId: field,
-      total: count()
-    })
-    .from(votes)
-    .where(conditions)
-    .groupBy(field)
-
-  return new Map(rows.map((row) => [row.countryId, row.total]))
-}
-
-export async function getRankings(): Promise<CountryRanking[]> {
-  const since = new Date(Date.now() - 24 * 60 * 60 * 1000)
-
-  const [winsMap, lossesMap, recentWinsMap, recentLossesMap] =
-    await database.transaction(async (tx) =>
-      Promise.all([
-        queryCountsByCountry(tx, 'preferredCountryId'),
-        queryCountsByCountry(tx, 'nonPreferredCountryId'),
-        queryCountsByCountry(tx, 'preferredCountryId', since),
-        queryCountsByCountry(tx, 'nonPreferredCountryId', since)
-      ])
-    )
-
-  return buildRankings(winsMap, lossesMap, recentWinsMap, recentLossesMap)
 }
