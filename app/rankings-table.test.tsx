@@ -12,14 +12,11 @@ const mockRankings: CountryRanking[] = [
       { emoji: '🍣', name: 'Sushi' },
       { emoji: '🍜', name: 'Ramen' }
     ],
+    eloRating: 1800,
     emoji: '🇯🇵',
-    losses: 2,
     name: 'Japan',
     rank: 1,
-    score: 0.75,
-    totalMatchups: 12,
-    trend: 'up',
-    wins: 10
+    trend: 'up'
   },
   {
     countryId: 'italy',
@@ -27,38 +24,29 @@ const mockRankings: CountryRanking[] = [
       { emoji: '🍕', name: 'Pizza' },
       { emoji: '🍝', name: 'Pasta' }
     ],
+    eloRating: 1700,
     emoji: '🇮🇹',
-    losses: 4,
     name: 'Italy',
     rank: 2,
-    score: 0.65,
-    totalMatchups: 10,
-    trend: 'neutral',
-    wins: 6
+    trend: 'neutral'
   },
   {
     countryId: 'mexico',
     dishes: [{ emoji: '🌮', name: 'Tacos' }],
+    eloRating: 1600,
     emoji: '🇲🇽',
-    losses: 8,
     name: 'Mexico',
     rank: 3,
-    score: 0.55,
-    totalMatchups: 14,
-    trend: 'down',
-    wins: 6
+    trend: 'down'
   },
   {
     countryId: 'france',
     dishes: [{ emoji: '🥐', name: 'Croissant' }],
+    eloRating: 1500,
     emoji: '🇫🇷',
-    losses: 5,
     name: 'France',
     rank: 4,
-    score: 0.5,
-    totalMatchups: 10,
-    trend: 'neutral',
-    wins: 5
+    trend: 'neutral'
   }
 ]
 
