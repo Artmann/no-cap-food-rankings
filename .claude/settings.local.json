@@ -15,7 +15,12 @@
       "Bash(npx vitest:*)",
       "Bash(npx tsc:*)",
       "Bash(git:*)",
-      "Bash(GIT_SEQUENCE_EDITOR=\"sed -i 's/^pick /reword /g'\" git rebase:*)"
+      "Bash(GIT_SEQUENCE_EDITOR=\"sed -i 's/^pick /reword /g'\" git rebase:*)",
+      "Bash(bun run:*)",
+      "Bash(DATABASE_URL=postgresql://localhost:5432/fake bun run:*)",
+      "Bash(npx:*)",
+      "Bash(bun add:*)",
+      "mcp__web-developer-mcp__network-requests"
     ]
   }
 }
