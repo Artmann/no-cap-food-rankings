@@ -28,7 +28,7 @@ beforeEach(async () => {
   client = testDb.client
   hoisted.database = testDb.database
 
-  process.env.RANKINGS_API_KEY = 'test-secret'
+  process.env.CRON_SECRET = 'test-secret'
 })
 
 afterEach(async () => {
@@ -51,18 +51,17 @@ async function insertVote(
 }
 
 async function callEndpoint(key?: string) {
-  const { POST } = await import('./route')
+  const { GET } = await import('./route')
 
-  const url = key
-    ? `http://localhost/api/rankings/calculate?key=${key}`
-    : 'http://localhost/api/rankings/calculate'
+  const url = 'http://localhost/api/rankings/calculate'
+  const headers: HeadersInit = key ? { authorization: `Bearer ${key}` } : {}
 
-  const request = new Request(url, { method: 'POST' })
+  const request = new Request(url, { method: 'GET', headers })
 
-  return POST(request)
+  return GET(request)
 }
 
-describe('POST /api/rankings/calculate', () => {
+describe('GET /api/rankings/calculate', () => {
   describe('auth', () => {
     it('returns 401 without key', async () => {
       const response = await callEndpoint()

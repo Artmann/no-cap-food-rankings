@@ -6,11 +6,11 @@ import invariant from 'tiny-invariant'
 import { database } from '@/db'
 import { contryRankings, votes } from '@/db/schema'
 
-export async function POST(request: Request) {
-  const { searchParams } = new URL(request.url)
-  const apiKey = searchParams.get('key')
+export async function GET(request: Request) {
+  const authHeader = request.headers.get('authorization')
+  const token = authHeader?.startsWith('Bearer ') ? authHeader.slice(7) : null
 
-  if (!apiKey || apiKey !== process.env.RANKINGS_API_KEY) {
+  if (!token || token !== process.env.CRON_SECRET) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
