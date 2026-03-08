@@ -1723,11 +1723,11 @@
     "id": "russia",
     "name": "Russia",
     "emoji": "🇷🇺",
-    "description": "Borscht and pelmeni in the cold is just built different",
+    "description": "Beef stroganoff and pelmeni in the cold is just built different",
     "dishes": [
       {
-        "name": "Borscht",
-        "emoji": "🍲"
+        "name": "Beef Stroganoff",
+        "emoji": "🥩"
       },
       {
         "name": "Pelmeni",
