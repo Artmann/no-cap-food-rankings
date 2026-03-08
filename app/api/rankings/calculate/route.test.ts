@@ -91,7 +91,8 @@ describe('POST /api/rankings/calculate', () => {
       expect(body).toEqual({
         eloChanges: {},
         ratings: {},
-        success: true
+        success: true,
+        voteCount: 0
       })
     })
   })
@@ -109,6 +110,8 @@ describe('POST /api/rankings/calculate', () => {
         italy: 1484,
         japan: 1516
       })
+
+      expect(body.voteCount).toEqual(1)
     })
 
     it('calculates correct ratings for multiple votes', async () => {
@@ -130,6 +133,8 @@ describe('POST /api/rankings/calculate', () => {
       expect(body.ratings.japan).toBeCloseTo(1531.27, 0)
       expect(body.ratings.mexico).toBeCloseTo(1500.7, 0)
       expect(body.ratings.italy).toBeCloseTo(1468.03, 0)
+
+      expect(body.voteCount).toEqual(3)
     })
   })
 
