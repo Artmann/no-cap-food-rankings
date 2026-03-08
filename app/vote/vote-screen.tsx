@@ -12,7 +12,7 @@ import { getVisitorId } from '@/lib/visitor'
 import { saveVote } from './actions'
 
 const emptySubscribe = () => () => {}
-const votesPerSession = 15
+const votesPerSession = 20
 
 export function VoteScreen() {
   const mounted = useSyncExternalStore(
