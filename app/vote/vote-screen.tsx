@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { useCallback, useState, useSyncExternalStore } from 'react'
 import { toast } from 'sonner'
 
@@ -11,6 +12,7 @@ import { getVisitorId } from '@/lib/visitor'
 import { saveVote } from './actions'
 
 const emptySubscribe = () => () => {}
+const votesPerSession = 7
 
 export function VoteScreen() {
   const mounted = useSyncExternalStore(
@@ -31,10 +33,12 @@ export function VoteScreen() {
 }
 
 function VoteScreenInner() {
+  const router = useRouter()
   const [visitorId] = useState(getVisitorId)
   const [pair, setPair] = useState<[Country, Country]>(getRandomPair)
   const [isTransitioning, setIsTransitioning] = useState(false)
   const [selected, setSelected] = useState<string | null>(null)
+  const [voteCount, setVoteCount] = useState(0)
 
   const handleSkip = useCallback(() => {
     if (isTransitioning) return
@@ -70,25 +74,41 @@ function VoteScreenInner() {
         })
       }
 
+      const newCount = voteCount + 1
+
+      setVoteCount(newCount)
+
       setTimeout(() => {
+        if (newCount >= votesPerSession) {
+          router.push('/')
+
+          return
+        }
+
         setPair(getRandomPair())
         setSelected(null)
         setIsTransitioning(false)
       }, 400)
     },
-    [isTransitioning, visitorId]
+    [isTransitioning, router, voteCount, visitorId]
   )
 
   const [top, bottom] = pair
 
   return (
     <div className="relative flex h-dvh flex-col md:flex-row">
-      <Link
-        className="absolute left-4 top-4 z-10 rounded-full bg-neutral-900/15 px-3 py-1 text-xs font-medium text-neutral-800 backdrop-blur-sm transition-colors hover:bg-neutral-900/25"
-        href="/"
-      >
-        View Rankings
-      </Link>
+      <div className="absolute left-4 top-4 z-10 flex items-center gap-2">
+        <Link
+          className="rounded-full bg-neutral-900/15 px-3 py-1 text-xs font-medium text-neutral-800 backdrop-blur-sm transition-colors hover:bg-neutral-900/25"
+          href="/"
+        >
+          View Rankings
+        </Link>
+
+        <span className="rounded-full bg-neutral-900/15 px-3 py-1 text-xs font-medium text-neutral-800 backdrop-blur-sm">
+          {voteCount}/{votesPerSession}
+        </span>
+      </div>
 
       <button
         className={`flex flex-1 cursor-pointer flex-col items-center justify-center gap-3 bg-gradient-to-b from-amber-200 to-orange-300 px-6 text-neutral-900 transition-opacity duration-300 md:bg-gradient-to-r ${
