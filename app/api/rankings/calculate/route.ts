@@ -1,4 +1,4 @@
-import { asc, gt } from 'drizzle-orm'
+import { and, asc, eq, gt, or } from 'drizzle-orm'
 import { NextResponse } from 'next/server'
 import { sum } from 'radash'
 import invariant from 'tiny-invariant'
@@ -128,14 +128,22 @@ async function updateCountryRankings(
 }
 
 async function* stepThroughVotes(pageSize = 100) {
+  let lastCreatedAt: Date | undefined = undefined
   let lastId: string | undefined = undefined
 
   while (true) {
     const rows = await database
       .select()
       .from(votes)
-      .where(lastId ? gt(votes.id, lastId) : undefined)
-      .orderBy(asc(votes.createdAt))
+      .where(
+        lastCreatedAt
+          ? or(
+              gt(votes.createdAt, lastCreatedAt),
+              and(eq(votes.createdAt, lastCreatedAt), gt(votes.id, lastId!))
+            )
+          : undefined
+      )
+      .orderBy(asc(votes.createdAt), asc(votes.id))
       .limit(pageSize)
 
     yield* rows
@@ -144,6 +152,9 @@ async function* stepThroughVotes(pageSize = 100) {
       return
     }
 
-    lastId = rows.at(-1)?.id
+    const lastRow = rows.at(-1)
+
+    lastCreatedAt = lastRow?.createdAt
+    lastId = lastRow?.id
   }
 }

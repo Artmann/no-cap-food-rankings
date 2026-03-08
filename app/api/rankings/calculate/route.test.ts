@@ -172,6 +172,29 @@ describe('GET /api/rankings/calculate', () => {
       )
     })
 
+    it('processes all votes when pagination is required', async () => {
+      const db = hoisted.database!
+      const totalVotes = 150
+
+      for (let i = 0; i < totalVotes; i++) {
+        const preferred = i % 2 === 0 ? 'japan' : 'italy'
+        const nonPreferred = i % 2 === 0 ? 'italy' : 'japan'
+
+        await insertVote(
+          db,
+          preferred,
+          nonPreferred,
+          new Date(2025, 0, 1, 0, 0, i)
+        )
+      }
+
+      const response = await callEndpoint('test-secret')
+      const body = await response.json()
+
+      expect(body.voteCount).toEqual(totalVotes)
+      expect(body.success).toEqual(true)
+    })
+
     it('upserts rankings without creating duplicate rows', async () => {
       const db = hoisted.database!
 
