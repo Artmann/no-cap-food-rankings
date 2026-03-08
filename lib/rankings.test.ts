@@ -45,9 +45,9 @@ describe('getRankings', () => {
     const { database } = await import('@/db')
     const mockOrderBy = vi.fn().mockResolvedValue(mockRows)
     const mockFrom = vi.fn().mockReturnValue({ orderBy: mockOrderBy })
-    vi.mocked(database.select).mockReturnValue(
-      { from: mockFrom } as unknown as ReturnType<typeof database.select>
-    )
+    vi.mocked(database.select).mockReturnValue({
+      from: mockFrom
+    } as unknown as ReturnType<typeof database.select>)
 
     const { getRankings } = await import('./rankings')
     const rankings = await getRankings()
@@ -83,9 +83,9 @@ describe('getRankings', () => {
     const { database } = await import('@/db')
     const mockOrderBy = vi.fn().mockResolvedValue([])
     const mockFrom = vi.fn().mockReturnValue({ orderBy: mockOrderBy })
-    vi.mocked(database.select).mockReturnValue(
-      { from: mockFrom } as unknown as ReturnType<typeof database.select>
-    )
+    vi.mocked(database.select).mockReturnValue({
+      from: mockFrom
+    } as unknown as ReturnType<typeof database.select>)
 
     const { getRankings } = await import('./rankings')
     const rankings = await getRankings()
