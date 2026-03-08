@@ -18,7 +18,7 @@ export default async function Home() {
   return (
     <div className="min-h-screen bg-neutral-50 font-sans">
       <div className="mx-auto max-w-2xl px-4 py-12">
-        <div className="mb-8 flex items-center justify-between">
+        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h1 className="text-3xl font-bold text-neutral-900">
               no cap food rankings
@@ -26,7 +26,7 @@ export default async function Home() {
             <p className="mt-1 text-neutral-500">the people have spoken</p>
           </div>
           <Link
-            className="rounded-full bg-neutral-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-neutral-700"
+            className="rounded-full bg-neutral-900 px-5 py-2.5 text-center text-sm font-medium text-white transition-colors hover:bg-neutral-700"
             href="/vote"
           >
             Start Voting
