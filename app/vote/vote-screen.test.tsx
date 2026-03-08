@@ -53,6 +53,10 @@ vi.mock('@/lib/visitor', () => ({
   getVisitorId: () => 'test-visitor-id'
 }))
 
+vi.mock('next/navigation', () => ({
+  useRouter: () => ({ push: vi.fn() })
+}))
+
 import { VoteScreen } from './vote-screen'
 
 describe('VoteScreen', () => {
