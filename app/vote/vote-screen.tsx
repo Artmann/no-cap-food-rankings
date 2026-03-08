@@ -10,12 +10,6 @@ import { getVisitorId } from '@/lib/visitor'
 
 import { saveVote } from './actions'
 
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void
-  }
-}
-
 const emptySubscribe = () => () => {}
 
 export function VoteScreen() {

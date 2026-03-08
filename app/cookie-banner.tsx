@@ -6,16 +6,12 @@ import 'vanilla-cookieconsent/dist/cookieconsent.css'
 declare global {
   interface Window {
     dataLayer: unknown[]
+    gtag: (...args: unknown[]) => void
   }
 }
 
-function gtag(...args: unknown[]) {
-  window.dataLayer = window.dataLayer || []
-  window.dataLayer.push(args)
-}
-
 function updateGtagConsent(granted: boolean) {
-  gtag('consent', 'update', {
+  window.gtag('consent', 'update', {
     analytics_storage: granted ? 'granted' : 'denied'
   })
 }

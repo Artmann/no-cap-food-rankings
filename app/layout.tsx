@@ -75,7 +75,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             window.gtag = function(){dataLayer.push(arguments);};
             window.gtag('consent', 'default', {
-              analytics_storage: 'denied'
+              analytics_storage: 'granted'
             });
             window.gtag('js', new Date());
             window.gtag('config', 'G-L9L0DQ9RS2');
